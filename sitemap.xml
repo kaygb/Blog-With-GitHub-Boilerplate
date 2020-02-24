@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/20200224lanuage-c-while-and-for/</loc>
+    <lastmod>2020-02-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/20200224speeding-judgment/</loc>
     <lastmod>2020-02-24</lastmod>
     <changefreq>always</changefreq>
