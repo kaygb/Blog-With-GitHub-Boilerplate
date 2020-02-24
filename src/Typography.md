@@ -6,10 +6,11 @@ date: 2019-12-18 16:50
 status: publish
 author: AlanDecode
 categories: 
-  - Maverick
+  - 疯也胡说
 tags:
   - Design
   - Typography
+  - Maverick
 excerpt: 这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。
 ---
 
