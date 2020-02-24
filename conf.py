@@ -48,11 +48,11 @@ external_links = [
     }
 ]
 nav = [
-#     {
-#         "name": "首页",
-#         "url": "${site_prefix}",
-#         "target": "_self"
-#     },
+    {
+        "name": "首页",
+        "url": "${site_prefix}",
+        "target": "_self"
+    },
     {
         "name": "归档",
         "url": "${site_prefix}archives/",
