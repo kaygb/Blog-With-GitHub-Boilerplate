@@ -32,19 +32,20 @@
         });
     </script>
     
-<title>疯知识 | 风也温柔</title>
-<meta name="author" content="风也" />
-<meta name="description" content="风也的Wiki站点，用来记录零零散散的笔记！" />
-<meta property="og:title" content="疯知识 | 风也温柔" />
-<meta property="og:description" content="风也的Wiki站点，用来记录零零散散的笔记！" />
+<title>超速判断 - 疯知识 | 风也温柔</title>
+<meta name="author" content="风也温柔" />
+<meta name="description" content="PTA超速判断题目" />
+<meta property="og:title" content="超速判断 - 疯知识 | 风也温柔" />
+<meta property="og:description" content="PTA超速判断题目" />
 <meta property="og:site_name" content="疯知识 | 风也温柔" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-<meta property="og:image" content="疯知识 | 风也温柔" />
-<meta name="twitter:title" content="疯知识 | 风也温柔" />
-<meta name="twitter:description" content="风也的Wiki站点，用来记录零零散散的笔记！" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/archives/20200224speeding-judgment/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2020-02-24T21:23:00-00.00" />
+<meta name="twitter:title" content="超速判断 - 疯知识 | 风也温柔" />
+<meta name="twitter:description" content="PTA超速判断题目" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="https://cdn.v2ex.com/gravatar/4cc893d113dd74ceca73f9863f2c5446/" />
+<meta name="twitter:image" content="" />
 
 
     
@@ -54,7 +55,7 @@
 
     </head>
     
-    <body class="archive">
+    <body class="content">
         <header>
             <div class="container">
                 <section>
@@ -98,7 +99,7 @@
                     
                     <section>
                         
-    <div class=" "><span><a href="/category/PTA试题/">PTA试题</a><button class="toggle_sidebar fa"></button></span><ul><div class=" "><span><a href="/category/C/">C</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/20200224speeding-judgment/">超速判断</a></li></ul></div></ul></div><div class=" "><span><a href="/category/疯也胡说/">疯也胡说</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/my-first-awesome-post/">我的第一篇文章</a></li></ul></div><div class=" "><span><a href="/category/Maverick/">Maverick</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/typography/">Hello World!</a></li></ul></div>
+    <div class="open "><span><a href="/category/PTA试题/">PTA试题</a><button class="toggle_sidebar fa"></button></span><ul><div class="open "><span><a href="/category/C/">C</a><button class="toggle_sidebar fa"></button></span><ul><li class="current"><a href="/archives/20200224speeding-judgment/">超速判断</a></li></ul></div></ul></div><div class=" "><span><a href="/category/疯也胡说/">疯也胡说</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/my-first-awesome-post/">我的第一篇文章</a></li></ul></div><div class=" "><span><a href="/category/Maverick/">Maverick</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/typography/">Hello World!</a></li></ul></div>
 
                     </section>
                     <section hidden class="sidebar-external-link">
@@ -118,53 +119,97 @@
                 </aside>
                 <div id="content-wrapper">
                     <div id="content">
-
     <section>
-        <h1 class="page-title">RECENT POSTS</h1>
-        <div id="content-list">
-            
-            <section class="card-list">
+        <h1 class="post-title">超速判断</h1>
+        <p class="post-meta">
+            <time>February 24 2020</time>
+            <span class="tags">
                 
-                    <a class="card" href="/archives/20200224speeding-judgment/">
-                        <time>February 24 2020</time>
-                        <span>超速判断</span>
-                    </a>
+                <span>
+                    <a href="/tag/c/">#c</a>
+                </span>
                 
-                    <a class="card" href="/archives/my-first-awesome-post/">
-                        <time>February 24 2020</time>
-                        <span>我的第一篇文章</span>
-                    </a>
+                <span>
+                    <a href="/tag/超速判断/">#超速判断</a>
+                </span>
                 
-                    <a class="card" href="/archives/typography/">
-                        <time>December 18 2019</time>
-                        <span>Hello World!</span>
-                    </a>
-                
-            </section>
-        </div>
+            </span>
+        </p>
+        <article class="yue"><h2>题目</h2>
+<p>模拟交通警察的雷达测速仪。输入汽车速度，如果速度超出60 mph，则显示“Speeding”，否则显示“OK”。</p>
+<h3>输入格式：</h3>
+<p>输入在一行中给出1个不超过500的非负整数，即雷达测到的车速。</p>
+<h3>输出格式：</h3>
+<p>在一行中输出测速仪显示结果，格式为：<code>Speed: V - S</code>，其中<code>V</code>是车速，<code>S</code>或者是<code>Speeding</code>、或者是<code>OK</code>。</p>
+<h3>输入样例1：</h3>
+
+<pre><code>40</code></pre>
+<h3>输出样例1：</h3>
+
+<pre><code>Speed: 40 - OK</code></pre>
+<h3>输入样例2：</h3>
+
+<pre><code>75</code></pre>
+<h3>输出样例2：</h3>
+
+<pre><code>Speed: 75 - Speeding</code></pre>
+<h2>分析</h2>
+<p>输入非负整数，使用<code>scanf</code>由于是整数，所以使用<code>%d</code></p>
+<div class="highlight"><pre><span></span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="o">&amp;</span><span class="n">s</span><span class="p">);</span> <span class="c1">//scanf获取的变量之前要添加 &amp; 符符号</span>
+</pre></div>
+<p>分界为60 ，则使用<code>if else</code>语句</p>
+<p>如果大于60 则 Speed: 75 - Speeding，否则Speed: 40 - OK</p>
+<h2>解答</h2>
+<div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">s</span><span class="p">;</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="o">&amp;</span><span class="n">s</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">s</span> <span class="o">&gt;</span> <span class="mi">60</span><span class="p">){</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Speed: %d - Speeding&quot;</span><span class="p">,</span><span class="n">s</span><span class="p">);</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Speed: %d - OK&quot;</span><span class="p">,</span><span class="n">s</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</article>
     </section>
 
     
     <section id="content-pager">
         
         
+            <div class="prev">
+                <a class="card" href="/archives/my-first-awesome-post/">
+                    <time>February 24 2020</time>
+                    <span>我的第一篇文章</span>
+                </a>
+            </div>
+        
     </section>
+    
 
+    
 
     <script>
-        document.body.classList.add('archive');
-        document.body.classList.remove('content');
+        document.body.classList.add('content');
+        document.body.classList.remove('archive');
     </script>
-
 </div>
                     <footer>
                         <span>Copyright © 2020 风也</span>
                         
+    
+
                         
                     </footer>
                 </div>
                 
-<aside id="toc-container" class="no-scrollbar no-bg"></aside>
+<aside id="toc-container" class="no-scrollbar">
+    <span><i class="fa fa-align-right"></i> CONTENTS</span>
+    <div id="toc"></div>
+</aside>
 
             </div>
         </main>
