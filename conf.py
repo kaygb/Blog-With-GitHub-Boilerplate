@@ -10,8 +10,8 @@ index_page_size = 10
 archives_page_size = 20
 template="Kepler"
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": True,
+    "repo": "kaygb/kaygb.github.io@master"
 }
 
 # 站点设置
