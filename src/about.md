@@ -12,11 +12,18 @@ tags:
   - theme
 ---
 
-这里是风也的个人Wiki站点，使用 Maverick 通过 GitHub 管理与构建，用来记录零散的知识。
+这里是风也的Wiki站点，使用 Maverick 通过 GitHub 管理与构建，用来记录零散的知识。
 
+我将她取名为`疯知识`，是希望我能更加疯狂的汲取知识，提升自己，做一个更加优秀的人！
 
 ## Contact
 
+Name: 风也 / kaygb
 Email: i#eas1.cn (replace # with @)
+Site: 
+- https://kaygb.top
+- https://eas1.cn
+
+Github: https://github.com/kaygb
 
 
