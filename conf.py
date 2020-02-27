@@ -28,7 +28,7 @@ language = 'zh-CN'
 external_links = [
     {
         "name": "BLOG",
-        "url": "https://kaygb.top",
+        "url": "https://eas1.cn",
         "brief": "风也温柔博客。"
     },
     {
