@@ -89,6 +89,6 @@ head_addon = r'''
 <link rel="icon" type="image/ico" href="//gravatar.kaygb.top/avatar/4cc893d113dd74ceca73f9863f2c5446/">
 '''
 
-footer_addon = ''
+footer_addon = '<script type="text/javascript" src="//js.users.51.la/20664491.js"></script>'
 
 body_addon = ''
