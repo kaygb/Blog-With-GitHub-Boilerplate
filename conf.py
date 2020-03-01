@@ -45,6 +45,11 @@ external_links = [
         "name": "STATUS",
         "url": "https://status.kaygb.top",
         "brief": "风也温柔的服务监控。"
+    },
+    {
+        "name": "GITHUB",
+        "url": "https://github.com/kaygb/kaygb.github.io",
+        "brief": "风也温柔的服务监控。"
     }
 ]
 nav = [
