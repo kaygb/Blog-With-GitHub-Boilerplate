@@ -23,9 +23,10 @@ Name: 风也 / kaygb
 Email: i#eas1.cn (replace # with @)
 
 Site: 
-- https://kaygb.top
-- https://eas1.cn
+- https://kaygb.top/
+- https://eas1.cn/
+- https://wgb.ink/
 
-Github: https://github.com/kaygb
+Github: https://github.com/kaygb/
 
 
