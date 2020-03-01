@@ -72,3 +72,6 @@ int main()
 
 输出：
 ![](./images/Snipaste_2020-03-01_17-25-47.png)
+
+## 关系
+![](images/Snipaste_2020-03-01_17-38-08.png)
