@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/20200304-css-fixed-align-center/</loc>
+    <lastmod>2020-03-04</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/20200301-C-break-and-continue/</loc>
     <lastmod>2020-03-01</lastmod>
     <changefreq>always</changefreq>
