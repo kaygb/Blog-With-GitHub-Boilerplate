@@ -38,7 +38,7 @@ external_links = [
     },
     {
         "name": "KTOOLS",
-        "url": "https://tools.kaygb.top",
+        "url": "https://tools.wgb.ink",
         "brief": "在线工具箱。"
     },
     {
