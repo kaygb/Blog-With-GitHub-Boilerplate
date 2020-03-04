@@ -7,7 +7,7 @@ status: publish
 author: 风也温柔
 categories: 
   - 编程笔记
-  - CSS
+  - WEB前端
 tags: 
   - css
   - fixed居中
