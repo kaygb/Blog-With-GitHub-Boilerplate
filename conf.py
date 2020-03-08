@@ -92,11 +92,18 @@ head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 <link rel="icon" type="image/ico" href="//gravatar.kaygb.top/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+<link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/default.min.css">
+
 '''
 
 footer_addon = r'''
 <a href="https://github.com/kaygb/kaygb.github.io" target="_blank">GITHUB</a>
 <script type="text/javascript" src="//js.users.51.la/20664491.js"></script>
+
 '''
 
-body_addon = ''
+body_addon = r'''
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+'''
+
