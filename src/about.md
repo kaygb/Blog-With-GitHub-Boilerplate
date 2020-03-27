@@ -24,7 +24,7 @@ tags:
 
 ### Email
 
-i#eas1.cn (replace # with @)
+Hi@wgb.ink (replace # with @)
 
 ### Site
 - https://kaygb.top/
