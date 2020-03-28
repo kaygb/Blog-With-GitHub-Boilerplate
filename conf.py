@@ -15,7 +15,7 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "疯知识 | 风也温柔"
+site_name = "疯知识"
 # site_logo = "${static_prefix}logo.png"
 site_logo = "https://gravatar.kaygb.top/avatar/4cc893d113dd74ceca73f9863f2c5446/"
 site_build_date = "2020-02-24T13:00+08:00"
@@ -23,13 +23,13 @@ author = "风也"
 email = "i@eas1.cn"
 author_homepage = "https://eas1.cn"
 description = "风也的Wiki站点，用来记录零零散散的笔记！"
-key_words = ['疯知识', '风也温柔', 'wiki', 'blog']
+key_words = ['疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
 language = 'zh-CN'
 external_links = [
     {
         "name": "BLOG",
         "url": "https://eas1.cn",
-        "brief": "风也温柔博客。"
+        "brief": "风也的小站。"
     },
     {
         "name": "BAIDU",
