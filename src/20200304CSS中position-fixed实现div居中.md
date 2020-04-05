@@ -4,7 +4,7 @@ title: CSS中position:fixed实现div居中
 slug: 20200304-css-fixed-align-center
 date: 2020-03-04 11:48
 status: publish
-author: 风也温柔
+author: 风也
 categories: 
   - 编程笔记
   - WEB前端

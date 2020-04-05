@@ -4,7 +4,7 @@ title: C语言中的break和continue
 slug: 20200301-C-break-and-continue
 date: 2020-03-01 17:11
 status: publish
-author: 风也温柔
+author: 风也
 categories: 
   - 编程笔记
   - C语言
