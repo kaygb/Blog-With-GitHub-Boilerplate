@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>疯知识</title><updated>2020-04-07T05:53:26.853911+08:06</updated><author><name>风也</name><email>i@eas1.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://gt.eas1.cn/avatar/4cc893d113dd74ceca73f9863f2c5446/</logo><subtitle>风也的Wiki站点，用来记录零零散散的笔记！</subtitle><entry><id>/archives/my-first-awesome-post/</id><title>我的第一篇笔记</title><updated>2020-04-07T05:53:26.854356+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;p&gt;这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>疯知识</title><updated>2020-04-07T05:56:13.609547+08:06</updated><author><name>风也</name><email>i@eas1.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/</logo><subtitle>风也的Wiki站点，用来记录零零散散的笔记！</subtitle><entry><id>/archives/my-first-awesome-post/</id><title>我的第一篇笔记</title><updated>2020-04-07T05:56:13.609985+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;p&gt;这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！&lt;/p&gt;
 &lt;p&gt;使用GitHub pages作为wiki站点,并即将启用CDN加速。&lt;/p&gt;
-</content><link href="/archives/my-first-awesome-post/" rel="alternate"/><published>2020-02-24T13:11:00+08:06</published></entry><entry><id>/archives/20200224-speeding-judgment/</id><title>超速判断</title><updated>2020-04-07T05:53:26.854327+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
+</content><link href="/archives/my-first-awesome-post/" rel="alternate"/><published>2020-02-24T13:11:00+08:06</published></entry><entry><id>/archives/20200224-speeding-judgment/</id><title>超速判断</title><updated>2020-04-07T05:56:13.609953+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
 &lt;p&gt;模拟交通警察的雷达测速仪。输入汽车速度，如果速度超出60 mph，则显示“Speeding”，否则显示“OK”。&lt;/p&gt;
 &lt;h3&gt;输入格式：&lt;/h3&gt;
 &lt;p&gt;输入在一行中给出1个不超过500的非负整数，即雷达测到的车速。&lt;/p&gt;
@@ -39,7 +39,7 @@
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20200224-speeding-judgment/" rel="alternate"/><published>2020-02-24T21:23:00+08:06</published></entry><entry><id>/archives/20200224-lanuage-c-while-and-for/</id><title>C语言阶乘While和FOR</title><updated>2020-04-07T05:53:26.854297+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;什么是阶乘？&lt;/h2&gt;
+</content><link href="/archives/20200224-speeding-judgment/" rel="alternate"/><published>2020-02-24T21:23:00+08:06</published></entry><entry><id>/archives/20200224-lanuage-c-while-and-for/</id><title>C语言阶乘While和FOR</title><updated>2020-04-07T05:56:13.609921+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;什么是阶乘？&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;While循环&lt;/h2&gt;
@@ -79,7 +79,7 @@
 
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20200224-lanuage-c-while-and-for/" rel="alternate"/><published>2020-02-24T22:17:00+08:06</published></entry><entry><id>/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</id><title>C语言FOR循环执行顺序</title><updated>2020-04-07T05:53:26.854269+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
+</content><link href="/archives/20200224-lanuage-c-while-and-for/" rel="alternate"/><published>2020-02-24T22:17:00+08:06</published></entry><entry><id>/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</id><title>C语言FOR循环执行顺序</title><updated>2020-04-07T05:56:13.609889+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
 &lt;p&gt;以下代码段的输出是什么？&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;/=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;%d &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
@@ -96,7 +96,7 @@
 &lt;p&gt;其执行次序为：A-&amp;gt;B-&amp;gt;D-&amp;gt;C-&amp;gt;B-&amp;gt;D-&amp;gt;C-&amp;gt;B……..&lt;/p&gt;
 &lt;p&gt;直到B条件不满足，则跳出循环体，这里需要着重强调的是：首次初始化之后，也一定要先执行一遍条件B语句。&lt;/p&gt;
 &lt;p&gt;所以上方的题目是，&lt;code&gt;i = 10,i&amp;gt;1;&lt;/code&gt;  &lt;code&gt;printf&lt;/code&gt;一次之后&lt;code&gt;i++&lt;/code&gt;,然后满足前两个条件，再执行&lt;code&gt;i/=2&lt;/code&gt;。&lt;/p&gt;
-</content><link href="/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/" rel="alternate"/><published>2020-02-25T20:50:00+08:06</published></entry><entry><id>/archives/20200301-C-sushupanduan/</id><title>C语言素数判断</title><updated>2020-04-07T05:53:26.854239+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
+</content><link href="/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/" rel="alternate"/><published>2020-02-25T20:50:00+08:06</published></entry><entry><id>/archives/20200301-C-sushupanduan/</id><title>C语言素数判断</title><updated>2020-04-07T05:56:13.609858+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
 &lt;p&gt;判断输入的一个数字是否是素数&lt;/p&gt;
 &lt;h2&gt;分析&lt;/h2&gt;
 &lt;p&gt;使用for循环，从2开始到小于输入的数分别取余，如果余数为0则不是素数&lt;/p&gt;
@@ -128,7 +128,7 @@
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20200301-C-sushupanduan/" rel="alternate"/><published>2020-03-01T15:27:00+08:06</published></entry><entry><id>/archives/20200301-C-break-and-continue/</id><title>C语言中的break和continue</title><updated>2020-04-07T05:53:26.854207+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;break&lt;/h2&gt;
+</content><link href="/archives/20200301-C-sushupanduan/" rel="alternate"/><published>2020-03-01T15:27:00+08:06</published></entry><entry><id>/archives/20200301-C-break-and-continue/</id><title>C语言中的break和continue</title><updated>2020-04-07T05:56:13.609825+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;break&lt;/h2&gt;
 &lt;p&gt;在循环语句中的意思是，循环到了这一轮满足了条件，就执行break跳出循环，即满足之后不再继续执行这个循环&lt;/p&gt;
 &lt;h3&gt;实例&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
@@ -177,7 +177,7 @@
 &lt;figure&gt;&lt;img data-width="876" data-height="246" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/6a617c9184e329836dcc41599cfac46a.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;关系&lt;/h2&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="544" data-height="622" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/f28f2cf635a9c0dd9a4ea0e385c7dd3c.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</content><link href="/archives/20200301-C-break-and-continue/" rel="alternate"/><published>2020-03-01T17:11:00+08:06</published></entry><entry><id>/archives/20200304-css-fixed-align-center/</id><title>CSS中position:fixed实现div居中</title><updated>2020-04-07T05:53:26.854161+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+</content><link href="/archives/20200301-C-break-and-continue/" rel="alternate"/><published>2020-03-01T17:11:00+08:06</published></entry><entry><id>/archives/20200304-css-fixed-align-center/</id><title>CSS中position:fixed实现div居中</title><updated>2020-04-07T05:56:13.609792+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 &lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;fixed&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;auto&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -190,7 +190,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;如果只需要左右居中，那么把&lt;code&gt;bottom:0; top:0;&lt;/code&gt; 删掉&lt;/p&gt;
 &lt;p&gt;如果只需要上下居中，那么把&lt;code&gt;left:0; 或者 right:0;&lt;/code&gt; 删掉&lt;/p&gt;
-</content><link href="/archives/20200304-css-fixed-align-center/" rel="alternate"/><published>2020-03-04T11:48:00+08:06</published></entry><entry><id>/archives/20200304-c-continue-and-break/</id><title>C语言循环中的continue和break</title><updated>2020-04-07T05:53:26.854079+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目1&lt;/h2&gt;
+</content><link href="/archives/20200304-css-fixed-align-center/" rel="alternate"/><published>2020-03-04T11:48:00+08:06</published></entry><entry><id>/archives/20200304-c-continue-and-break/</id><title>C语言循环中的continue和break</title><updated>2020-04-07T05:56:13.609757+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目1&lt;/h2&gt;
 &lt;p&gt;以下代码段的输出是：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -212,7 +212,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;输出结果&lt;/h3&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="766" data-height="75" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/a8448e1c96a0e973fbbe1efcd21de73e.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</content><link href="/archives/20200304-c-continue-and-break/" rel="alternate"/><published>2020-03-04T16:39:00+08:06</published></entry><entry><id>/archives/20200321-c-suanfa-liuchengtu/</id><title>C语言中的算法和流程图</title><updated>2020-04-07T05:53:26.854033+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;算法&lt;/h2&gt;
+</content><link href="/archives/20200304-c-continue-and-break/" rel="alternate"/><published>2020-03-04T16:39:00+08:06</published></entry><entry><id>/archives/20200321-c-suanfa-liuchengtu/</id><title>C语言中的算法和流程图</title><updated>2020-04-07T05:56:13.609701+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;算法&lt;/h2&gt;
 &lt;p&gt;数据结构：对数据的描述。&lt;/p&gt;
 &lt;p&gt;算法：对操作的描述。&lt;/p&gt;
 &lt;p&gt;沃思公式：算法 + 数据结构 = 程序&lt;/p&gt;
@@ -293,7 +293,7 @@
 &lt;p&gt;模块化的设计方法比较常用，在程序比较复杂的时候更有必要。程序中的子模块在C语言中通常通过函数来实现，划分时应注意模块的独立性，即使用一个模块完成一项功能，耦合性越少越好。&lt;/p&gt;
 &lt;p&gt;结构化的程序设计方法用了解决人脑思维能力的局限性和被处理问题复杂性之间的矛盾。&lt;/p&gt;
 &lt;p&gt;在设计好结构化的算法之后要善于进行结构化编码，所谓编码就是将已经设计好的算法用计算机语言来表示，根据已经细化的算法正确的写出计算机程序。&lt;/p&gt;
-</content><link href="/archives/20200321-c-suanfa-liuchengtu/" rel="alternate"/><published>2020-03-21T08:58:00+08:06</published></entry><entry><id>/archives/202004-c-continue-and-break/</id><title>C语言输入输出函数以及格式化说明符</title><updated>2020-04-07T05:53:26.853980+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;输入函数scanf&lt;/h2&gt;
+</content><link href="/archives/20200321-c-suanfa-liuchengtu/" rel="alternate"/><published>2020-03-21T08:58:00+08:06</published></entry><entry><id>/archives/202004-c-continue-and-break/</id><title>C语言输入输出函数以及格式化说明符</title><updated>2020-04-07T05:56:13.609632+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;输入函数scanf&lt;/h2&gt;
 &lt;p&gt;函数名: scanf&lt;/p&gt;
 &lt;p&gt;功 能: 执行格式化输入&lt;/p&gt;
 &lt;p&gt;用 法: int scanf(char *format[,argument,...]);&lt;/p&gt;
