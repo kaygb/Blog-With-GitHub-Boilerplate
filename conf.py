@@ -43,7 +43,7 @@ external_links = [
     },
     {
         "name": "STATUS",
-        "url": "https://status.kaygb.top",
+        "url": "https://status.eas1.cn",
         "brief": "风也温柔的服务监控。"
     },
     {
