@@ -44,12 +44,12 @@ external_links = [
     {
         "name": "STATUS",
         "url": "https://status.eas1.cn",
-        "brief": "风也温柔的服务监控。"
+        "brief": "风也服务监控。"
     },
     {
         "name": "GITHUB",
         "url": "https://github.com/kaygb/kaygb.github.io",
-        "brief": "风也温柔的服务监控。"
+        "brief": "GITHUB"
     }
 ]
 nav = [
@@ -98,20 +98,6 @@ head_addon = r'''
 
 footer_addon = r'''
 <script type="text/javascript" src="//js.users.51.la/20664491.js"></script>
-<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlightjs-line-numbers.js/2.7.0/highlightjs-line-numbers.min.js"></script>
-<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-<script>hljs.initHighlightingOnLoad();
-hljs.initLineNumbersOnLoad();
-$(document).ready(function() {
-    // 初始化highlightjs
-    $('code.hljs').each(function(i, block) {
-        hljs.lineNumbersBlock(block);
-    });
-});
-
-</script>
-
 
 '''
 
