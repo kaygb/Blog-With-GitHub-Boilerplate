@@ -13,8 +13,6 @@ tags:
 excerpt: WINDS —— 如风吹拂
 ---
 
-> 即将发布，暂未公开，敬请期待！
-
 入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！
 
 > 非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
@@ -22,6 +20,8 @@ excerpt: WINDS —— 如风吹拂
 
 
 ## 安装
+
+> 即将发布，暂未公开，敬请期待！
 
 下载最新release：[点击这里下载最新版本](https://github.com/kaygb/typecho-theme-winds/releases)
 
