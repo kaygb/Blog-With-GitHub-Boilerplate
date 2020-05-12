@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Typecho theme winds 使用文档 
-slug: doc-of-typecho-theme-winds
+slug: zh-doc-of-typecho-theme-winds
 date: 2020-05-12 20:14
 status: publish
 author: 风也
