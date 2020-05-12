@@ -12,7 +12,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/doc-of-typecho-theme-winds/</loc>
+    <loc>/archives/zh-doc-of-typecho-theme-winds/</loc>
     <lastmod>2020-05-12</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
