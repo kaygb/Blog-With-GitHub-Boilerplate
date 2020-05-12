@@ -68,7 +68,7 @@ excerpt: WINDS —— 如风吹拂
 <li><a href="//eas1.cn" target="_blank">主站</a></li>
 ~~~
 
-![](/src/images/Snipaste_2020-05-12_20-31-37.png)
+![](./images/Snipaste_2020-05-12_20-31-37.png)
 
 ### 自定义footer标签内容
 
@@ -77,7 +77,7 @@ excerpt: WINDS —— 如风吹拂
 ### 备案号
 
 填入备案号将在底部显示
-![](/src/images/Snipaste_2020-05-12_20-33-16.png)
+![](./images/Snipaste_2020-05-12_20-33-16.png)
 
 ## 反馈
 
