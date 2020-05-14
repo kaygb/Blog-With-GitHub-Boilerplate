@@ -21,7 +21,7 @@ excerpt: WINDS —— 如风吹拂
 
 ## 安装
 
-> 即将发布release！现在可直接拉取master分支
+> 即将发布release！现在可直接拉取master分支，喜欢的话给个star吧！
 
 下载最新release：[点击这里下载最新版本](https://github.com/kaygb/typecho-theme-winds/releases)
 
