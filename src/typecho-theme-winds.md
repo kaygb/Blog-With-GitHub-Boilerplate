@@ -27,6 +27,12 @@ excerpt: WINDS —— 如风吹拂
 
 下载主题包，上传至typecho主题目录，解压并更名文件夹为：WINDS
 
+## 插件
+
+搜索功能依赖于于ExSearch，下载：https://github.com/AlanDecode/Typecho-Plugin-ExSearch
+
+只需按照README.md安装，然后在插件设置构建缓存即可
+
 ## 主题设置
 
 ### 站点名称
