@@ -1,45 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>疯知识</title><updated>2020-05-17T08:38:43.234838+08:06</updated><author><name>风也</name><email>i@eas1.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/</logo><subtitle>风也的Wiki站点，用来记录零零散散的笔记！</subtitle><entry><id>/archives/20200224-lanuage-c-while-and-for/</id><title>C语言阶乘While和FOR</title><updated>2020-05-17T08:38:43.235316+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;什么是阶乘？&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;While循环&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
-
-&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;scanf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;fact&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="cm"&gt;/* code */&lt;/span&gt;
-        &lt;span class="n"&gt;fact&lt;/span&gt; &lt;span class="o"&gt;*=&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-        &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;%d! = %d&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;fact&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-
-
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;For循环&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
-&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
-
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;scanf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;fact&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="cm"&gt;/* code */&lt;/span&gt;
-        &lt;span class="n"&gt;fact&lt;/span&gt; &lt;span class="o"&gt;*=&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;%d!= %d&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;fact&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20200224-lanuage-c-while-and-for/" rel="alternate"/><published>2020-02-24T22:17:00+08:06</published></entry><entry><id>/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</id><title>C语言FOR循环执行顺序</title><updated>2020-05-17T08:38:43.235285+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>疯知识</title><updated>2020-05-20T03:24:40.685049+08:06</updated><author><name>风也</name><email>i@eas1.cn</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/</logo><subtitle>风也的Wiki站点，用来记录零零散散的笔记！</subtitle><entry><id>/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</id><title>C语言FOR循环执行顺序</title><updated>2020-05-20T03:24:40.685409+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
 &lt;p&gt;以下代码段的输出是什么？&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;/=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;%d &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
@@ -56,7 +16,7 @@
 &lt;p&gt;其执行次序为：A-&amp;gt;B-&amp;gt;D-&amp;gt;C-&amp;gt;B-&amp;gt;D-&amp;gt;C-&amp;gt;B……..&lt;/p&gt;
 &lt;p&gt;直到B条件不满足，则跳出循环体，这里需要着重强调的是：首次初始化之后，也一定要先执行一遍条件B语句。&lt;/p&gt;
 &lt;p&gt;所以上方的题目是，&lt;code&gt;i = 10,i&amp;gt;1;&lt;/code&gt;  &lt;code&gt;printf&lt;/code&gt;一次之后&lt;code&gt;i++&lt;/code&gt;,然后满足前两个条件，再执行&lt;code&gt;i/=2&lt;/code&gt;。&lt;/p&gt;
-</content><link href="/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/" rel="alternate"/><published>2020-02-25T20:50:00+08:06</published></entry><entry><id>/archives/20200301-C-sushupanduan/</id><title>C语言素数判断</title><updated>2020-05-17T08:38:43.235254+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
+</content><link href="/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/" rel="alternate"/><published>2020-02-25T20:50:00+08:06</published></entry><entry><id>/archives/20200301-C-sushupanduan/</id><title>C语言素数判断</title><updated>2020-05-20T03:24:40.685382+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目&lt;/h2&gt;
 &lt;p&gt;判断输入的一个数字是否是素数&lt;/p&gt;
 &lt;h2&gt;分析&lt;/h2&gt;
 &lt;p&gt;使用for循环，从2开始到小于输入的数分别取余，如果余数为0则不是素数&lt;/p&gt;
@@ -88,7 +48,7 @@
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20200301-C-sushupanduan/" rel="alternate"/><published>2020-03-01T15:27:00+08:06</published></entry><entry><id>/archives/20200301-C-break-and-continue/</id><title>C语言中的break和continue</title><updated>2020-05-17T08:38:43.235224+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;break&lt;/h2&gt;
+</content><link href="/archives/20200301-C-sushupanduan/" rel="alternate"/><published>2020-03-01T15:27:00+08:06</published></entry><entry><id>/archives/20200301-C-break-and-continue/</id><title>C语言中的break和continue</title><updated>2020-05-20T03:24:40.685353+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;break&lt;/h2&gt;
 &lt;p&gt;在循环语句中的意思是，循环到了这一轮满足了条件，就执行break跳出循环，即满足之后不再继续执行这个循环&lt;/p&gt;
 &lt;h3&gt;实例&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
@@ -137,7 +97,7 @@
 &lt;figure&gt;&lt;img data-width="876" data-height="246" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/6a617c9184e329836dcc41599cfac46a.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;关系&lt;/h2&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="544" data-height="622" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/f28f2cf635a9c0dd9a4ea0e385c7dd3c.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</content><link href="/archives/20200301-C-break-and-continue/" rel="alternate"/><published>2020-03-01T17:11:00+08:06</published></entry><entry><id>/archives/20200304-css-fixed-align-center/</id><title>CSS中position:fixed实现div居中</title><updated>2020-05-17T08:38:43.235193+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+</content><link href="/archives/20200301-C-break-and-continue/" rel="alternate"/><published>2020-03-01T17:11:00+08:06</published></entry><entry><id>/archives/20200304-css-fixed-align-center/</id><title>CSS中position:fixed实现div居中</title><updated>2020-05-20T03:24:40.685325+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 &lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;fixed&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;auto&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -150,7 +110,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;如果只需要左右居中，那么把&lt;code&gt;bottom:0; top:0;&lt;/code&gt; 删掉&lt;/p&gt;
 &lt;p&gt;如果只需要上下居中，那么把&lt;code&gt;left:0; 或者 right:0;&lt;/code&gt; 删掉&lt;/p&gt;
-</content><link href="/archives/20200304-css-fixed-align-center/" rel="alternate"/><published>2020-03-04T11:48:00+08:06</published></entry><entry><id>/archives/20200304-c-continue-and-break/</id><title>C语言循环中的continue和break</title><updated>2020-05-17T08:38:43.235162+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目1&lt;/h2&gt;
+</content><link href="/archives/20200304-css-fixed-align-center/" rel="alternate"/><published>2020-03-04T11:48:00+08:06</published></entry><entry><id>/archives/20200304-c-continue-and-break/</id><title>C语言循环中的continue和break</title><updated>2020-05-20T03:24:40.685297+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;题目1&lt;/h2&gt;
 &lt;p&gt;以下代码段的输出是：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -172,7 +132,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;输出结果&lt;/h3&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="766" data-height="75" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/a8448e1c96a0e973fbbe1efcd21de73e.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
-</content><link href="/archives/20200304-c-continue-and-break/" rel="alternate"/><published>2020-03-04T16:39:00+08:06</published></entry><entry><id>/archives/20200321-c-suanfa-liuchengtu/</id><title>C语言中的算法和流程图</title><updated>2020-05-17T08:38:43.235131+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;算法&lt;/h2&gt;
+</content><link href="/archives/20200304-c-continue-and-break/" rel="alternate"/><published>2020-03-04T16:39:00+08:06</published></entry><entry><id>/archives/20200321-c-suanfa-liuchengtu/</id><title>C语言中的算法和流程图</title><updated>2020-05-20T03:24:40.685270+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;算法&lt;/h2&gt;
 &lt;p&gt;数据结构：对数据的描述。&lt;/p&gt;
 &lt;p&gt;算法：对操作的描述。&lt;/p&gt;
 &lt;p&gt;沃思公式：算法 + 数据结构 = 程序&lt;/p&gt;
@@ -253,7 +213,7 @@
 &lt;p&gt;模块化的设计方法比较常用，在程序比较复杂的时候更有必要。程序中的子模块在C语言中通常通过函数来实现，划分时应注意模块的独立性，即使用一个模块完成一项功能，耦合性越少越好。&lt;/p&gt;
 &lt;p&gt;结构化的程序设计方法用了解决人脑思维能力的局限性和被处理问题复杂性之间的矛盾。&lt;/p&gt;
 &lt;p&gt;在设计好结构化的算法之后要善于进行结构化编码，所谓编码就是将已经设计好的算法用计算机语言来表示，根据已经细化的算法正确的写出计算机程序。&lt;/p&gt;
-</content><link href="/archives/20200321-c-suanfa-liuchengtu/" rel="alternate"/><published>2020-03-21T08:58:00+08:06</published></entry><entry><id>/archives/202004-c-continue-and-break/</id><title>C语言输入输出函数以及格式化说明符</title><updated>2020-05-17T08:38:43.235100+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;输入函数scanf&lt;/h2&gt;
+</content><link href="/archives/20200321-c-suanfa-liuchengtu/" rel="alternate"/><published>2020-03-21T08:58:00+08:06</published></entry><entry><id>/archives/202004-c-continue-and-break/</id><title>C语言输入输出函数以及格式化说明符</title><updated>2020-05-20T03:24:40.685242+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;h2&gt;输入函数scanf&lt;/h2&gt;
 &lt;p&gt;函数名: scanf&lt;/p&gt;
 &lt;p&gt;功 能: 执行格式化输入&lt;/p&gt;
 &lt;p&gt;用 法: int scanf(char *format[,argument,...]);&lt;/p&gt;
@@ -354,7 +314,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><link href="/archives/202004-c-continue-and-break/" rel="alternate"/><published>2020-04-05T18:00:00+08:06</published></entry><entry><id>/archives/20200509-css-delete-input-default-style/</id><title>CSS去除输入框默认聚焦样式</title><updated>2020-05-17T08:38:43.235063+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;p&gt;我们在写表单的时候会发现一些浏览器对表单赋予了默认的样式，如在Chorme浏览器下，文本框及下拉选择框当载入焦点时，都会出现发光的边框，并且在火狐及谷歌浏览器下，多行文本框textarea还可以自由拖拽拉大，另外还有在IE10下，当文本框输入内容后，在文本框的右侧会出现一个小叉叉，等等。不容置疑，这些效果是在用户体验上得到了提升，但有些时候我们并不需要这些默认的样式，那怎么办呢？下面我们就来分别看一下解决办法。&lt;/p&gt;
+</content><link href="/archives/202004-c-continue-and-break/" rel="alternate"/><published>2020-04-05T18:00:00+08:06</published></entry><entry><id>/archives/20200509-css-delete-input-default-style/</id><title>CSS去除输入框默认聚焦样式</title><updated>2020-05-20T03:24:40.685213+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;p&gt;我们在写表单的时候会发现一些浏览器对表单赋予了默认的样式，如在Chorme浏览器下，文本框及下拉选择框当载入焦点时，都会出现发光的边框，并且在火狐及谷歌浏览器下，多行文本框textarea还可以自由拖拽拉大，另外还有在IE10下，当文本框输入内容后，在文本框的右侧会出现一个小叉叉，等等。不容置疑，这些效果是在用户体验上得到了提升，但有些时候我们并不需要这些默认的样式，那怎么办呢？下面我们就来分别看一下解决办法。&lt;/p&gt;
 &lt;p&gt;1、去除Chrome等浏览器文本框默认发光边框&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;focus&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;textarea&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;focus&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 
@@ -404,7 +364,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;哦了，以上就是关于去除表单浏览器默认样式的一些内容。&lt;/p&gt;
 &lt;p&gt;转载：&lt;a href="https://blog.csdn.net/mr_wanter/article/details/16920945"&gt;https://blog.csdn.net/mr_wanter/article/details/16920945&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/20200509-css-delete-input-default-style/" rel="alternate"/><published>2020-05-09T22:09:00+08:06</published></entry><entry><id>/archives/zh-doc-of-typecho-theme-winds/</id><title>Typecho theme winds 使用文档</title><updated>2020-05-17T08:38:43.234977+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;p&gt;入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！&lt;/p&gt;
+</content><link href="/archives/20200509-css-delete-input-default-style/" rel="alternate"/><published>2020-05-09T22:09:00+08:06</published></entry><entry><id>/archives/zh-doc-of-typecho-theme-winds/</id><title>Typecho theme winds 使用文档</title><updated>2020-05-20T03:24:40.685180+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;p&gt;入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
 部分样式借鉴 VOID Material sagiri ，非常感谢！&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -445,4 +405,11 @@
 &lt;figure&gt;&lt;img data-width="900" data-height="154" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/db329907c4086ea631f23cc93c88ba8a.png" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;反馈&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/kaygb/typecho-theme-winds/issues"&gt;点击此处提交ISSUE&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/zh-doc-of-typecho-theme-winds/" rel="alternate"/><published>2020-05-12T20:14:00+08:06</published></entry></feed>
+</content><link href="/archives/zh-doc-of-typecho-theme-winds/" rel="alternate"/><published>2020-05-12T20:14:00+08:06</published></entry><entry><id>/archives/20200520-typecho-posts-category-comments=pages-num/</id><title>Typecho获取所有的文章分类评论页面数量</title><updated>2020-05-20T03:24:40.685123+00:00</updated><author><name>风也</name><email>i@eas1.cn</email><uri>https://eas1.cn</uri></author><content>&lt;p&gt;在写WINDS侧边栏的时候用到的代码，可以获取所有文章数量，分类数量，评论数量，独立页面数量。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;Typecho_Widget&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="na"&gt;widget&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Widget_Stat&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;to&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;文章数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedPostsNum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;分类数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;categoriesNum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;评论数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedCommentsNum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;页面数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedPagesNum&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+</content><link href="/archives/20200520-typecho-posts-category-comments=pages-num/" rel="alternate"/><published>2020-05-20T11:19:00+08:06</published></entry></feed>

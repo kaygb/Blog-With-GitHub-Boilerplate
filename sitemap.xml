@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/20200520-typecho-posts-category-comments=pages-num/</loc>
+    <lastmod>2020-05-20</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/zh-doc-of-typecho-theme-winds/</loc>
     <lastmod>2020-05-12</lastmod>
     <changefreq>always</changefreq>
