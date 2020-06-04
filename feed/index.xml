@@ -1,22 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>疯知识</title><link>/</link><description>风也的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/</url><title>疯知识</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 20 May 2020 03:37:39 +0806</lastBuildDate><pubDate>Wed, 20 May 2020 03:37:39 +0806</pubDate><item><title>C语言FOR循环执行顺序</title><link>/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</link><description>&lt;h2&gt;题目&lt;/h2&gt;
-&lt;p&gt;以下代码段的输出是什么？&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;/=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;%d &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;我的答案是：5 3 2 1 1 （x）
-正确答案：10 5 3 2&lt;/p&gt;
-&lt;h2&gt;剖析&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;初始值赋值操作&lt;/span&gt;&lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="err"&gt;；终止条件&lt;/span&gt;&lt;span class="n"&gt;B&lt;/span&gt;&lt;span class="err"&gt;；递增操作&lt;/span&gt;&lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="p"&gt;{&lt;/span&gt;
-     &lt;span class="err"&gt;循环体&lt;/span&gt;&lt;span class="n"&gt;D&lt;/span&gt;&lt;span class="err"&gt;；&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;其执行次序为：A-&amp;gt;B-&amp;gt;D-&amp;gt;C-&amp;gt;B-&amp;gt;D-&amp;gt;C-&amp;gt;B……..&lt;/p&gt;
-&lt;p&gt;直到B条件不满足，则跳出循环体，这里需要着重强调的是：首次初始化之后，也一定要先执行一遍条件B语句。&lt;/p&gt;
-&lt;p&gt;所以上方的题目是，&lt;code&gt;i = 10,i&amp;gt;1;&lt;/code&gt;  &lt;code&gt;printf&lt;/code&gt;一次之后&lt;code&gt;i++&lt;/code&gt;,然后满足前两个条件，再执行&lt;code&gt;i/=2&lt;/code&gt;。&lt;/p&gt;
-</description><author>i@eas1.cn (风也)</author><guid isPermaLink="true">/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</guid><pubDate>Tue, 25 Feb 2020 20:50:00 +0806</pubDate></item><item><title>C语言素数判断</title><link>/archives/20200301-C-sushupanduan/</link><description>&lt;h2&gt;题目&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>疯知识</title><link>/</link><description>风也的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/</url><title>疯知识</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 04 Jun 2020 02:37:59 +0806</lastBuildDate><pubDate>Thu, 04 Jun 2020 02:37:59 +0806</pubDate><item><title>C语言素数判断</title><link>/archives/20200301-C-sushupanduan/</link><description>&lt;h2&gt;题目&lt;/h2&gt;
 &lt;p&gt;判断输入的一个数字是否是素数&lt;/p&gt;
 &lt;h2&gt;分析&lt;/h2&gt;
 &lt;p&gt;使用for循环，从2开始到小于输入的数分别取余，如果余数为0则不是素数&lt;/p&gt;
@@ -413,4 +396,30 @@
 &lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;页面数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedPagesNum&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href="https://typechoer.com/81.html"&gt;https://typechoer.com/81.html&lt;/a&gt;&lt;/p&gt;
-</description><author>i@eas1.cn (风也)</author><guid isPermaLink="true">/archives/20200520-typecho-posts-category-comments=pages-num/</guid><pubDate>Wed, 20 May 2020 11:19:00 +0806</pubDate></item></channel></rss>
+</description><author>i@eas1.cn (风也)</author><guid isPermaLink="true">/archives/20200520-typecho-posts-category-comments=pages-num/</guid><pubDate>Wed, 20 May 2020 11:19:00 +0806</pubDate></item><item><title>让Typecho支持Emoji表情</title><link>/archives/20200604-typecho-emoji/</link><description>&lt;p&gt;Typecho默认不支持emoji表情是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
+&lt;p&gt;Emoji是一种在Unicode位于u1F601-u1F64F区段的字符。这个显然超过了目前常用的UTF-8字符集的编码范围u0000-uFFFF。在MySQL中，UTF-8只支持最多3个字节，而emoji是4个字节。这就导致如果你不修改数据库的话，typecho是无法支持Emoji表情的。&lt;/p&gt;
+&lt;p&gt;当然好消息是utf8mb4其实是完全兼容utf-8，修改后不会影响现有数据及后期数据。&lt;/p&gt;
+&lt;p&gt;1.修改数据库编码&lt;/p&gt;
+&lt;p&gt;在PhpMyadmin中选择typecho数据库，操作--&amp;gt;排序规则--&amp;gt;选择utf8mb4_unicode_ci然后执行。&lt;/p&gt;
+&lt;p&gt;2.修改表编码&lt;/p&gt;
+&lt;p&gt;执行以下sql语句&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_comments&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_contents&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_fields&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_metas&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_options&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_relationships&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_users&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3.修改typecho配置文件config.inc.php&lt;/p&gt;
+&lt;p&gt;拉到最下面找到这一行&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;#39;charset&amp;#39;   =&amp;gt;  &amp;#39;utf8&amp;#39;,&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;修改为&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;#39;charset&amp;#39;   =&amp;gt;  &amp;#39;utf8mb4&amp;#39;,&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Typecho就可以使用emoji表情了,赶紧评论试试吧,搜索emoji表情还真不少.&lt;/p&gt;
+&lt;p&gt;😷😀😂🤣😃😄😅🚚😊😋😎😍😘😗😙😚🙂🤗💰🙏💪👕☎🐁🚀📡🍎💯📺🚴&lt;/p&gt;
+&lt;p&gt;本文转载来源：旧日的足迹
+原文链接：&lt;a href="https://jrdzj.cc/2020-03-07.html"&gt;https://jrdzj.cc/2020-03-07.html&lt;/a&gt;&lt;/p&gt;
+</description><author>i@eas1.cn (风也)</author><guid isPermaLink="true">/archives/20200604-typecho-emoji/</guid><pubDate>Thu, 04 Jun 2020 10:33:00 +0806</pubDate></item></channel></rss>
