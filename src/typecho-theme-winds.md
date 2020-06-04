@@ -85,6 +85,12 @@ excerpt: WINDS —— 如风吹拂
 填入备案号将在底部显示
 ![](./images/Snipaste_2020-05-12_20-33-16.png)
 
+## 常见问题
+
+### 评论Emoji表情后数据库错误
+
+在20200603的更新中，winds加入了OwO表情，同时加入了默认的emoji图标库，由于typecho数据库格式的问题，如果您无法使用emoji表情评论，那么请将您的数据库格式从utf-8升级为utf8mb4，详细教程参阅：[让Typecho支持Emoji表情](https://wiki.eas1.cn/archives/20200604-typecho-emoji/)
+
 ## 反馈
 
 [点击此处提交ISSUE](https://github.com/kaygb/typecho-theme-winds/issues)
