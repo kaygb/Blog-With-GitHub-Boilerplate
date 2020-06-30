@@ -20,8 +20,7 @@ excerpt: WINDS —— 如风吹拂
 
 
 ## 安装
-
-> 即将发布release！现在可直接拉取master分支，喜欢的话给个star吧！
+> 现在可安装V1.0正式版，喜欢的话给个star吧！
 
 下载最新release：[点击这里下载最新版本](https://github.com/kaygb/typecho-theme-winds/releases)
 
@@ -48,7 +47,11 @@ http://www.imhan.com/archives/typecho-links/
 
 ### 站点名称
 
-这里的设置和typecho后台的基本设置不冲突，只用来显示在导航栏左侧，以及头部标题的位置。
+显示在首页的banner位置，不与站点标题冲突，已添加基础SEO设置，站点标题请在typecho设置内修改。
+
+### 站点SEO描述
+
+面向搜索引擎，在首页HEAD标签内
 
 ### 背景图片地址
 
@@ -58,13 +61,17 @@ http://www.imhan.com/archives/typecho-links/
 
 这里可以填入相对路径，或者图片外链。将会在浏览器的标签上显示。
 
+### 个人资料卡片名称
+
+可填写昵称，站点名称或者一句话
+
 ### 个人卡片头像
 
 填入自己的头像URL
 
-### 个人卡片大图
+### ~~个人卡片大图~~（已废弃）
 
-显示在侧边栏的个人信息卡片的背景图片，添加了懒加载，支持外链和相对路径。
+~~显示在侧边栏的个人信息卡片的背景图片，添加了懒加载，支持外链和相对路径~~
 
 ### 首页文章摘要字数
 
@@ -89,7 +96,7 @@ http://www.imhan.com/archives/typecho-links/
 
 ### 自定义footer标签内容
 
-输出在页面底部
+输出在页面底部，可放置统计代码
 
 ### 备案号
 
@@ -102,8 +109,24 @@ http://www.imhan.com/archives/typecho-links/
 
 在20200603的更新中，winds加入了OwO表情，同时加入了默认的emoji图标库，由于typecho数据库格式的问题，如果您无法使用emoji表情评论，那么请将您的数据库格式从utf-8升级为utf8mb4，详细教程参阅：[让Typecho支持Emoji表情](https://wiki.eas1.cn/archives/20200604-typecho-emoji/)
 
-### 
+### 找不到类“ Links_Plugin”
+
+请安装友情链接插件
+
+### 搜索按钮无法点击
+
+请安装ExSearch插件
+
+### ExSearch搜索索引无效
+
+参照ExSearch文档，然后开启引入JQ，并保证插件文件夹内的cache文件夹可写
 
 ## 反馈
 
 [点击此处提交ISSUE](https://github.com/kaygb/typecho-theme-winds/issues)
+
+或者直接在下方留言
+
+## 提问的艺术
+
+[https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
