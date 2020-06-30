@@ -33,6 +33,17 @@ excerpt: WINDS —— 如风吹拂
 
 只需按照README.md安装，然后在插件设置构建缓存即可
 
+### 安装友情链接插件
+
+http://www.imhan.com/archives/typecho-links/
+
+- 全站链接分类：ten
+- 内页链接分类：one
+- 失效链接分类：nogood
+
+![](./images/20200630-1.png)
+
+
 ## 主题设置
 
 ### 站点名称
@@ -90,6 +101,8 @@ excerpt: WINDS —— 如风吹拂
 ### 评论Emoji表情后数据库错误
 
 在20200603的更新中，winds加入了OwO表情，同时加入了默认的emoji图标库，由于typecho数据库格式的问题，如果您无法使用emoji表情评论，那么请将您的数据库格式从utf-8升级为utf8mb4，详细教程参阅：[让Typecho支持Emoji表情](https://wiki.eas1.cn/archives/20200604-typecho-emoji/)
+
+### 
 
 ## 反馈
 
