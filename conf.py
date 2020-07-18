@@ -92,7 +92,7 @@ social_links = [
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="icon" type="image/ico" href="//gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+<link rel="icon" type="image/ico" href="https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/tx_compressed.png">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
 
 '''
