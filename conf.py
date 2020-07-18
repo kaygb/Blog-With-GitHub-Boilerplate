@@ -22,7 +22,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "疯知识"
 # site_logo = "${static_prefix}logo.png"
-site_logo = "https://gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/"
+site_logo = "https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/tx_compressed.png"
 site_build_date = "2020-02-24T13:00+08:00"
 author = "风也"
 email = "i@eas1.cn"
@@ -31,20 +31,16 @@ description = "风也的Wiki站点，用来记录零零散散的笔记！"
 key_words = ['疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
 language = 'zh-CN'
 external_links = [
+    
     {
-        "name": "BLOG",
-        "url": "https://eas1.cn",
-        "brief": "风也の小站。"
-    },
-    {
-        "name": "BAIDU",
-        "url": "https://baidu.kaygb.top",
+        "name": "HOME",
+        "url": "https://www.kaygb.com",
         "brief": "帮你百度一下。"
     },
     {
-        "name": "KTOOLS",
-        "url": "https://tools.wgb.ink",
-        "brief": "在线工具箱。"
+        "name": "BLOG",
+        "url": "https://blog.kaygb.com",
+        "brief": "风也雨忆笙。"
     },
     {
         "name": "STATUS",
