@@ -22,7 +22,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "疯知识"
 # site_logo = "${static_prefix}logo.png"
-site_logo = "https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/tx_compressed.png"
+site_logo = "https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg"
 site_build_date = "2020-02-24T13:00+08:00"
 author = "风也"
 email = "i@eas1.cn"
@@ -92,7 +92,7 @@ social_links = [
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="icon" type="image/ico" href="https://cdn.jsdelivr.net/gh/kaygb/blog-images/static_image/kaygb-logo/tx_compressed.png">
+<link rel="icon" type="image/ico" href="https://kaygbcdn.170601.xyz/kaygbcom/piceas1cn/20200927-df43687194a4b.jpg">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
 
 '''
