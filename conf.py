@@ -20,22 +20,22 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "疯知识"
+site_name = "珂泽笔记"
 # site_logo = "${static_prefix}logo.png"
 site_logo = "https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg"
 site_build_date = "2020-02-24T13:00+08:00"
-author = "风也"
-email = "i@eas1.cn"
-author_homepage = "https://eas1.cn"
-description = "风也的Wiki站点，用来记录零零散散的笔记！"
-key_words = ['疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
+author = "珂泽"
+email = "hi@kaygb.com"
+author_homepage = "https://www.kaygb.com"
+description = "珂泽的Wiki站点，用来记录零零散散的笔记！"
+key_words = ['珂泽笔记','疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
 language = 'zh-CN'
 external_links = [
     
     {
         "name": "HOME",
         "url": "https://www.kaygb.com",
-        "brief": "帮你百度一下。"
+        "brief": "HOME。"
     },
     {
         "name": "BLOG",
@@ -45,7 +45,7 @@ external_links = [
     {
         "name": "STATUS",
         "url": "https://status.eas1.cn",
-        "brief": "风也服务监控。"
+        "brief": "服务监控。"
     },
     {
         "name": "GITHUB",
@@ -92,7 +92,7 @@ social_links = [
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="icon" type="image/ico" href="https://kaygbcdn.170601.xyz/kaygbcom/piceas1cn/20200927-df43687194a4b.jpg">
+<link rel="icon" type="image/ico" href="https://kaygbcdn.170601.xyz/kaygbcom/icon/favicon.png">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
 
 '''
@@ -107,7 +107,7 @@ body_addon = r'''
 '''
 
 valine = {
-    "enable": True,
+    "enable": False,
     "el": '#vcomments',
     "appId": "TUD3TUlDQQn2g7UVTa23Lieg-gzGzoHsz",
     "appKey": "SpPXP0VL2MDqcYLhEf9z0zMg",
