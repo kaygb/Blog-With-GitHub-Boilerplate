@@ -1,23 +1,12 @@
 ## Welcome!
 
-这个仓库是我的WIKI站点源码仓库
-地址：https://wiki.eas1.cn/
-
+这里是珂泽的笔记站点，使用 Maverick 通过 GitHub 管理与构建，用来记录零散的知识，同时提升自己，做一个更加优秀的人！
 
 ## Contact
 
-### Name
+| Name | 珂泽（kaygb） |
+| --- | --- |
+| Email | hi#kaygb.com(# => @) |
+| Site | https://www.kaygb.com |
+| Github | https://github.com/kaygb/ |
 
-风也 / kaygb
-
-### Email
-
-kaygb#qq.com (replace # with @)
-
-### Site
-- https://kaygb.top/
-- https://eas1.cn/
-- https://wgb.ink/
-
-### Github
- https://github.com/kaygb/
