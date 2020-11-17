@@ -98,8 +98,7 @@ head_addon = r'''
 '''
 
 footer_addon = r'''
-<script type="text/javascript" src="//js.users.51.la/20664491.js"></script>
-
+<a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener">豫ICP备19002054号-6</a>
 '''
 
 body_addon = r'''
