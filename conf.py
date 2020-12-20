@@ -20,7 +20,7 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "珂泽笔记"
+site_name = "Kaygb's wiki"
 # site_logo = "${static_prefix}logo.png"
 site_logo = "https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg"
 site_build_date = "2020-02-24T13:00+08:00"
