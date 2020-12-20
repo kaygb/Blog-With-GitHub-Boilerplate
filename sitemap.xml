@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/20201220-leecode-1431/</loc>
+    <lastmod>2020-10-20</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/20200604-typecho-emoji/</loc>
     <lastmod>2020-06-04</lastmod>
     <changefreq>always</changefreq>
