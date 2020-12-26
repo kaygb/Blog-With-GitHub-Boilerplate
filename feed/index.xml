@@ -1,18 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 21 Dec 2020 07:33:54 +0806</lastBuildDate><pubDate>Mon, 21 Dec 2020 07:33:54 +0806</pubDate><item><title>CSS中position:fixed实现div居中</title><link>/archives/20200304-css-fixed-align-center/</link><description>&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;fixed&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="k"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;auto&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="k"&gt;right&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="k"&gt;top&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="k"&gt;bottom&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;150&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;如果只需要左右居中，那么把&lt;code&gt;bottom:0; top:0;&lt;/code&gt; 删掉&lt;/p&gt;
-&lt;p&gt;如果只需要上下居中，那么把&lt;code&gt;left:0; 或者 right:0;&lt;/code&gt; 删掉&lt;/p&gt;
-</description><author>hi@kaygb.com (风也)</author><guid isPermaLink="true">/archives/20200304-css-fixed-align-center/</guid><pubDate>Wed, 04 Mar 2020 11:48:00 +0806</pubDate></item><item><title>C语言循环中的continue和break</title><link>/archives/20200304-c-continue-and-break/</link><description>&lt;h2&gt;题目1&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 26 Dec 2020 12:47:49 +0806</lastBuildDate><pubDate>Sat, 26 Dec 2020 12:47:49 +0806</pubDate><item><title>C语言循环中的continue和break</title><link>/archives/20200304-c-continue-and-break/</link><description>&lt;h2&gt;题目1&lt;/h2&gt;
 &lt;p&gt;以下代码段的输出是：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -479,4 +466,468 @@
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">/archives/20201221-leecode-771/</guid><pubDate>Mon, 21 Dec 2020 15:21:00 +0806</pubDate></item></channel></rss>
+</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">/archives/20201221-leecode-771/</guid><pubDate>Mon, 21 Dec 2020 15:21:00 +0806</pubDate></item><item><title>安卓开发规范</title><link>/archives/20201226-android-arch-coding-style/</link><description>&lt;blockquote&gt;&lt;p&gt;Google官方Java代码风格参考规范&lt;a href="http://google-styleguide.googlecode.com/svn/trunk/javaguide.html"&gt;链接&lt;/a&gt;， 中文翻译参考版&lt;a href="http://hawstein.com/posts/google-java-style.html"&gt;链接&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;本文转载来源：&lt;a href="https://gityuan.com/2015/08/10/android-arch-coding-style/"&gt;https://gityuan.com/2015/08/10/android-arch-coding-style/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;命名规范&lt;/h2&gt;
+&lt;h3&gt;1. 包命名&lt;/h3&gt;
+&lt;p&gt;规则：包名全部小写，采用反域名命名规则，一级包名是顶级域名，通常为com, edu, gov, net, org等，二级包名，通过为公司名或部门名或者个人名，三级包名通常为项目名，四级包名为模块名或者层级名。以下是从层级包名来划分android项目中采用的包划分结构&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;com.domain.xxx.activity  //用户界面中所有的Activity类
+com.domain.xxx.fragment  //界面中所有的Fragment类
+com.domain.xxx.adapter   //界面中所有的Adapter类（适配器类）
+com.domain.xxx.view      //自定义的View类
+com.domain.xxx.service   //后台Service类
+com.domain.xxx.util      //项目中常用的公共工具类（网络, IO, 日志等）
+com.domain.xxx.bean      //实体模型类
+com.domain.xxx.db        //数据库操作相关的类
+com.domain.xxx.config    //所有的配置相关的类
+com.domain.xxx.api       //网络api接口相关de 类&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;2. 类命名&lt;/h3&gt;
+&lt;p&gt;规则：采用&lt;strong&gt;大驼峰式&lt;/strong&gt;命名法，首字母大写，尽量避免缩写，除非该缩写是众所周知的，比如HTML，URL,如果类名称包含单词缩写，则单词缩写的每个字母均应大写。以下列举的是android中几种最为常用的类的命名。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class LoginActivity;     //activity类
+class DiscoverFragment;  //fragment类
+class AnalysisService;   //service类
+class WakeupRankAdapter; //adapter类
+class StringUtils;       //工具类
+class UserBean;          //模型类
+class ApiImpl;           //接口实现类&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;3. 接口命名&lt;/h3&gt;
+&lt;p&gt;规则：命名规则与类命名一样采用&lt;strong&gt;大驼峰式&lt;/strong&gt;命名法，首字母大写，多以able, ible, er结尾&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;interface Comparable;
+interface Accessible;
+interface OnClickListener;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;4. 方法&lt;/h3&gt;
+&lt;p&gt;规则：采用&lt;strong&gt;小驼峰&lt;/strong&gt;命名法，首字母小写，方法名采用动词或动名词结构。方法的命名应该与方法的真正行为具有对应关系，下面给出一些方法名的动词前缀标示的建议。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left"&gt;方法名&lt;/th&gt;
+&lt;th style="text-align:left"&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;getXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;获取某个属性的返回值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;setXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;设置某个属性值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;initXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;初始化方法，如初始化布局initView()&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;isXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;判断是否true的方法；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;checkXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;与isXX意义等价&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;processXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;处理数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;updateXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;更新数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;saveXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;保存数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;addXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;deleteXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;删除数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;resetXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;重置数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;clearXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;清除数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;removeXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;移除数据或者视图等，如removeView();&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;drawXX()&lt;/td&gt;
+&lt;td style="text-align:left"&gt;绘制数据或者视图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;5. 变量&lt;/h3&gt;
+&lt;p&gt;规则：采用&lt;strong&gt;小驼峰&lt;/strong&gt;命名法，首字母小写。变量名应简短且能描述其用途，尽量避免拼音，无意义地缩写。除非是临时变量，否则不建议使用单个字符的变量名，如i, j, k。对于变量命名，还有一种风格是google的以字母m为前缀（m为member缩写），在android 源码中随处可见。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private int userName;  //java的一般性风格
+private int mUserName; //google的成员变量风格，m为member的缩写&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;6. 常量&lt;/h3&gt;
+&lt;p&gt;规则：常量使用&lt;strong&gt;全大写字母&lt;/strong&gt;加下划线的方式命名。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public static final int TAG= "tag";
+public static final int START_CLASS_NOT_FOUND = -2;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;下面介绍的与android关系更加紧密：&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;7. 控件变量名&lt;/h3&gt;
+&lt;p&gt;规则：首先需要满足第5条变量的规则， 模式：逻辑名 + view缩写&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Button sendNewsBtn;
+TextView passwordTxt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;8. 控件ID&lt;/h3&gt;
+&lt;p&gt;规则：view缩写_模块名_逻辑名&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;android:id="@+id/btn_news_send"  //样例&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;view缩写如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left"&gt;View&lt;/th&gt;
+&lt;th style="text-align:left"&gt;缩写&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;TextView&lt;/td&gt;
+&lt;td style="text-align:left"&gt;txt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;EditText&lt;/td&gt;
+&lt;td style="text-align:left"&gt;edit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;Button&lt;/td&gt;
+&lt;td style="text-align:left"&gt;btn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;ImageButton&lt;/td&gt;
+&lt;td style="text-align:left"&gt;ibtn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;ImageView&lt;/td&gt;
+&lt;td style="text-align:left"&gt;img&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;ListView&lt;/td&gt;
+&lt;td style="text-align:left"&gt;lv&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;RadioGroup&lt;/td&gt;
+&lt;td style="text-align:left"&gt;rgroup&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;RadioButton&lt;/td&gt;
+&lt;td style="text-align:left"&gt;rbtn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;ProgressBar&lt;/td&gt;
+&lt;td style="text-align:left"&gt;rbar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;SeekBar&lt;/td&gt;
+&lt;td style="text-align:left"&gt;seek&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;CheckBox&lt;/td&gt;
+&lt;td style="text-align:left"&gt;cb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;Spinner&lt;/td&gt;
+&lt;td style="text-align:left"&gt;spinner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;TableLayout&lt;/td&gt;
+&lt;td style="text-align:left"&gt;table&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;TableRow&lt;/td&gt;
+&lt;td style="text-align:left"&gt;row&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;LinearLayout&lt;/td&gt;
+&lt;td style="text-align:left"&gt;ll&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;RelativeLayout&lt;/td&gt;
+&lt;td style="text-align:left"&gt;rl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;ScrollView&lt;/td&gt;
+&lt;td style="text-align:left"&gt;scroll&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;SearchView&lt;/td&gt;
+&lt;td style="text-align:left"&gt;search&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;TabHost&lt;/td&gt;
+&lt;td style="text-align:left"&gt;thost&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;TabWidget&lt;/td&gt;
+&lt;td style="text-align:left"&gt;twidget&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;9. 资源文件名&lt;/h3&gt;
+&lt;h4&gt;9.1 layout的文件命名&lt;/h4&gt;
+&lt;p&gt;规则：全部小写，采用下划线命名法。layout文件命名：组件类型&lt;em&gt;{模块&lt;/em&gt;}功能.xml&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;activity_news_title.xml //样例&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left"&gt;命名规范&lt;/th&gt;
+&lt;th style="text-align:left"&gt;组件类型&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;activity&lt;em&gt;{模块&lt;/em&gt;}功能&lt;/td&gt;
+&lt;td style="text-align:left"&gt;Activity命名格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;fragment&lt;em&gt;{模块&lt;/em&gt;}功能&lt;/td&gt;
+&lt;td style="text-align:left"&gt;Fragment命名格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;dialog&lt;em&gt;{模块&lt;/em&gt;}功能&lt;/td&gt;
+&lt;td style="text-align:left"&gt;Dialog命名格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;popup&lt;em&gt;{模块&lt;/em&gt;}功能&lt;/td&gt;
+&lt;td style="text-align:left"&gt;PopupWindow命名格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;item&lt;em&gt;list&lt;/em&gt;{模块_}功能&lt;/td&gt;
+&lt;td style="text-align:left"&gt;ListView的item命名格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;item&lt;em&gt;grid&lt;/em&gt;{模块_}功能&lt;/td&gt;
+&lt;td style="text-align:left"&gt;GridView的item命名格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;9.2 drawable的文件命名&lt;/h4&gt;
+&lt;p&gt;模式：前缀{_控件}{_范围}{_后缀}，控件、范围、后缀可选&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bg_login_pressed.png //样例&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left"&gt;drawable&lt;/th&gt;
+&lt;th style="text-align:left"&gt;命名细则&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;图标类&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加ic前缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;背景类&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加bg前缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;分隔类&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加div前缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;默认类&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加def前缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，默认状态&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加normal后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，按下时的状态&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加pressed后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，选中时的状态&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加selected后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，不可用时的状态&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加disable后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;多种状态的&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加selector后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;9.3 动画的文件命名&lt;/h4&gt;
+&lt;p&gt;规则：{范围_}动画类型_动画方向。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;login_fade_in.xml //样例&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left"&gt;动画命名&lt;/th&gt;
+&lt;th style="text-align:left"&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;fade_in&lt;/td&gt;
+&lt;td style="text-align:left"&gt;淡入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;fade_out&lt;/td&gt;
+&lt;td style="text-align:left"&gt;淡出&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;push_down_in&lt;/td&gt;
+&lt;td style="text-align:left"&gt;从下方推入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;push_down_out&lt;/td&gt;
+&lt;td style="text-align:left"&gt;从下方推出&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;slide_in_from_top&lt;/td&gt;
+&lt;td style="text-align:left"&gt;从头部滑动进入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;zoom_enter&lt;/td&gt;
+&lt;td style="text-align:left"&gt;变形进入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;shrink_to_middle&lt;/td&gt;
+&lt;td style="text-align:left"&gt;中间缩小&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;10. 资源内的name命名&lt;/h3&gt;
+&lt;h4&gt;10.1 strings.xml&lt;/h4&gt;
+&lt;p&gt;模式：activity名&lt;em&gt;{范围&lt;/em&gt;}逻辑名&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;string name="login_username"&amp;gt;用户名&amp;lt;/string&amp;gt; //样例&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;10.2 colors.xml&lt;/h4&gt;
+&lt;p&gt;模式：前缀{_控件}{_范围}{_后缀}， 控件、范围、后缀可选，&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;color name="bg_login"&amp;gt;#FFFFFF&amp;lt;/color&amp;gt; //样例&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left"&gt;colors&lt;/th&gt;
+&lt;th style="text-align:left"&gt;命名细则&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;背景颜色&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加bg前缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;文本颜色&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加text前缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;分割线颜色&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加div前缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，默认状态的颜色&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加normal后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，按下时的颜色&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加pressed后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，选中时的颜色&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加selected后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left"&gt;区分状态时，不可用时的颜色&lt;/td&gt;
+&lt;td style="text-align:left"&gt;添加disable后缀&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;代码风格&lt;/h2&gt;
+&lt;h3&gt;原则&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;不要直接忽略Exceptions&lt;/p&gt;
+&lt;p&gt;例如下面的示例，永远不要这样做，无法预测未来可能的变化&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  void setServerPort(String value) {
+      try {
+          serverPort = Integer.parseInt(value);
+      } catch (NumberFormatException e) { }
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;正确的做法应该如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  void setServerPort(String value) throws ConfigurationException {
+      try {
+          serverPort = Integer.parseInt(value);
+      } catch (NumberFormatException e) {
+          throw new ConfigurationException("Port " + value + " is not valid.");
+      }
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;import采用完全限定名&lt;/p&gt;
+&lt;p&gt;不提倡：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  import foo.*;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;正确做法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  import foo.Bar;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;括号风格：&lt;/p&gt;
+&lt;p&gt;不提倡：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  if (condition)
+      body();&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;正确做法：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  if (condition) {
+      body();
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用空格来缩进&lt;/p&gt;
+&lt;p&gt;使用4个空格缩进来代表块，而绝不使用tab键； 使用8个空格来代表行包裹，包括函数调用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;注释&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1.类注释，每个类完成后应该有作者姓名和联系方式的注释，对自己的代码负责&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  /** * 作者: gityuan * 时间: 13-12-20 19：25 * 描述: 用户登录 * 联系方式: gityuan@gmail.com */
+  public class Login{
+          ...
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2.方法注释，每一个成员方法（包括自定义成员方法、覆盖方法、属性方法）的方法头都必须做方法头注释&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  /* * 方法名： * 功 能： * 参 数： * 返回值：无 */&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3.快注释&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  private class MessageObserver extends ContentObserver {
+      public MessageObserver() {
+          super(mainHandler);
+      }
+
+      public void onChange(boolean hasChanged) {
+       // 发送更新UI的消息
+       mHandler.sendMessage(mHandler.obtainMessage(0x2));
+      }
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;4.资源文件注释&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  &amp;lt;!--红色 --&amp;gt;
+  &amp;lt;color name="red"&amp;gt;#FF0000&amp;lt;/color&amp;gt;
+  &amp;lt;!--深蓝色 --&amp;gt;
+  &amp;lt;color name="dark_blue"&amp;gt;#0079FF&amp;lt;/color&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">/archives/20201226-android-arch-coding-style/</guid><pubDate>Sat, 26 Dec 2020 20:45:00 +0806</pubDate></item></channel></rss>
