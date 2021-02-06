@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/20210206-lq-three-int-sort/</loc>
+    <lastmod>2021-02-06</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/20210206-lq-string-class/</loc>
     <lastmod>2021-02-06</lastmod>
     <changefreq>always</changefreq>
