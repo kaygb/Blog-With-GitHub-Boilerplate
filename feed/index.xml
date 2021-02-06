@@ -1,55 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 06 Feb 2021 10:33:16 +0806</lastBuildDate><pubDate>Sat, 06 Feb 2021 10:33:16 +0806</pubDate><item><title>CSS去除输入框默认聚焦样式</title><link>/archives/20200509-css-delete-input-default-style/</link><description>&lt;p&gt;我们在写表单的时候会发现一些浏览器对表单赋予了默认的样式，如在Chorme浏览器下，文本框及下拉选择框当载入焦点时，都会出现发光的边框，并且在火狐及谷歌浏览器下，多行文本框textarea还可以自由拖拽拉大，另外还有在IE10下，当文本框输入内容后，在文本框的右侧会出现一个小叉叉，等等。不容置疑，这些效果是在用户体验上得到了提升，但有些时候我们并不需要这些默认的样式，那怎么办呢？下面我们就来分别看一下解决办法。&lt;/p&gt;
-&lt;p&gt;1、去除Chrome等浏览器文本框默认发光边框&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;focus&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;textarea&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;focus&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-
-    &lt;span class="k"&gt;outline&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;当然这样以来，当文本框载入焦点时，所有浏览器下的文本框的边框都不会有颜色上及样式上的变化了，但我们可以重新根据自己的需要设置一下，如：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;focus&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="nt"&gt;textarea&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;focus&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-
-    &lt;span class="k"&gt;outline&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-    &lt;span class="k"&gt;border&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="kc"&gt;solid&lt;/span&gt; &lt;span class="mh"&gt;#f60&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;这样的话，当文本框载入焦点时，边框颜色就会变为橙色，给用户一个反馈。&lt;/p&gt;
-&lt;p&gt;2、去除IE10+浏览器文本框后面的小叉叉&lt;/p&gt;
-&lt;p&gt;只需下面一句就ok了&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;-ms-clear&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-
-    &lt;span class="k"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;3、禁止多行文本框textarea拖拽&lt;/p&gt;
-&lt;p&gt;这样按下面添加属性多行文本框就不能拖拽放大缩小了：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;textarea&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-
-    &lt;span class="k"&gt;resize&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;在这里要提到一个属性resize，这个是CSS3属性，用于元素缩放，它可以取以下几个值：&lt;/p&gt;
-&lt;p&gt;none 默认值&lt;/p&gt;
-&lt;p&gt;both 允许水平方向及垂直方向缩放&lt;/p&gt;
-&lt;p&gt;horizontal 只允许水平方向缩放&lt;/p&gt;
-&lt;p&gt;vertical 只允许垂直方向缩放&lt;/p&gt;
-&lt;p&gt;不仅可以针对textarea元素，对大多数元素都适用，如div等，在这里不一一列举，但与textarea不同的是，对div使用时需要加上一句overflow: auto;，也就是这样才有效果：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;div {
-
-    resize: both;
-
-    overflow: auto;
-
-}
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;哦了，以上就是关于去除表单浏览器默认样式的一些内容。&lt;/p&gt;
-&lt;p&gt;转载：&lt;a href="https://blog.csdn.net/mr_wanter/article/details/16920945"&gt;https://blog.csdn.net/mr_wanter/article/details/16920945&lt;/a&gt;&lt;/p&gt;
-</description><author>hi@kaygb.com (风也)</author><guid isPermaLink="true">/archives/20200509-css-delete-input-default-style/</guid><pubDate>Sat, 09 May 2020 22:09:00 +0806</pubDate></item><item><title>Typecho theme winds 使用文档</title><link>/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;p&gt;入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 06 Feb 2021 12:56:51 +0806</lastBuildDate><pubDate>Sat, 06 Feb 2021 12:56:51 +0806</pubDate><item><title>Typecho theme winds 使用文档</title><link>/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;p&gt;入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
 部分样式借鉴 VOID Material sagiri ，非常感谢！&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -940,4 +890,57 @@ Swap 1 2 3 7&lt;/p&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">/archives/20210206-lq-three-int-sort/</guid><pubDate>Sat, 06 Feb 2021 18:27:00 +0806</pubDate></item></channel></rss>
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">/archives/20210206-lq-three-int-sort/</guid><pubDate>Sat, 06 Feb 2021 18:27:00 +0806</pubDate></item><item><title>蓝桥算法提高-计数问题</title><link>/archives/20210206-lq-jswt/</link><description>&lt;h2&gt;试题 算法提高 计数问题&lt;/h2&gt;
+&lt;h2&gt;资源限制&lt;/h2&gt;
+&lt;p&gt;时间限制：1.0s  内存限制：128.0MB&lt;/p&gt;
+&lt;h2&gt;问题描述&lt;/h2&gt;
+&lt;p&gt;　　试计算在区间 1 到 n 的所有整数中，数字 x（0 ≤ x ≤ 9）共出现了多少次？例如，在 1到 11 中，即在 1、2、3、4、5、6、7、8、9、10、11 中，数字 1 出现了 4 次。&lt;/p&gt;
+&lt;h2&gt;输入格式&lt;/h2&gt;
+&lt;p&gt;　　输入文件名为 count.in。
+　　输入共 1 行，包含 2 个整数 n、x，之间用一个空格隔开。&lt;/p&gt;
+&lt;h2&gt;输出格式&lt;/h2&gt;
+&lt;p&gt;　　输出文件名为 count.out。
+　　输出共 1 行，包含一个整数，表示 x 出现的次数。&lt;/p&gt;
+&lt;h2&gt;输入输出样例&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;count.in&lt;/th&gt;
+&lt;th&gt;count.out&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;11 1&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;数据说明&lt;/h2&gt;
+&lt;p&gt;　　对于 100%的数据，1≤ n ≤ 1,000,000，0 ≤ x ≤ 9。&lt;/p&gt;
+&lt;h2&gt;分析&lt;/h2&gt;
+&lt;p&gt;处理读入的数，当大于0  的时候对10取余，如果与x相等则sum加一，然后除十继续取余。&lt;/p&gt;
+&lt;h2&gt;代码&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+
+    &lt;span class="kt"&gt;long&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;cin&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;long&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="kt"&gt;long&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+                &lt;span class="n"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+            &lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="n"&gt;cout&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">/archives/20210206-lq-jswt/</guid><pubDate>Sat, 06 Feb 2021 20:53:00 +0806</pubDate></item></channel></rss>
