@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 06 Feb 2021 10:21:47 +0806</lastBuildDate><pubDate>Sat, 06 Feb 2021 10:21:47 +0806</pubDate><item><title>C语言输入输出函数以及格式化说明符</title><link>/archives/202004-c-continue-and-break/</link><description>&lt;h2&gt;输入函数scanf&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 06 Feb 2021 10:23:39 +0806</lastBuildDate><pubDate>Sat, 06 Feb 2021 10:23:39 +0806</pubDate><item><title>C语言输入输出函数以及格式化说明符</title><link>/archives/202004-c-continue-and-break/</link><description>&lt;h2&gt;输入函数scanf&lt;/h2&gt;
 &lt;p&gt;函数名: scanf&lt;/p&gt;
 &lt;p&gt;功 能: 执行格式化输入&lt;/p&gt;
 &lt;p&gt;用 法: int scanf(char *format[,argument,...]);&lt;/p&gt;
@@ -862,7 +862,7 @@ TextView passwordTxt;&lt;/code&gt;&lt;/pre&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">/archives/20210206-lq-swapxy-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item><item><title>蓝桥算法提高-字符串操作</title><link>/archives/20210206-lq-swapxy-class/</link><description>&lt;p&gt;试题 算法提高 字符串的操作&lt;/p&gt;
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">/archives/20210206-lq-swapxy-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item><item><title>蓝桥算法提高-字符串操作</title><link>/archives/20210206-lq-string-class/</link><description>&lt;p&gt;试题 算法提高 字符串的操作&lt;/p&gt;
 &lt;h2&gt;资源限制&lt;/h2&gt;
 &lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
 &lt;h2&gt;问题描述&lt;/h2&gt;
@@ -1005,4 +1005,4 @@ Swap 1 2 3 7&lt;/p&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">/archives/20210206-lq-swapxy-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item></channel></rss>
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">/archives/20210206-lq-string-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item></channel></rss>
