@@ -91,6 +91,7 @@ social_links = [
 
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
+<meta http-equiv="Cache-Control" content="no-cache" />
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 <link rel="icon" type="image/ico" href="https://kaygbcdn.170601.xyz/favicon.ico">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
