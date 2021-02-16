@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>Kaygb's wiki</title><updated>2021-02-06T12:56:51.245856+08:06</updated><author><name>珂泽</name><email>hi@kaygb.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</logo><subtitle>珂泽的Wiki站点，用来记录零零散散的笔记！</subtitle><entry><id>/archives/zh-doc-of-typecho-theme-winds/</id><title>Typecho theme winds 使用文档</title><updated>2021-02-06T12:56:51.246275+00:00</updated><author><name>风也</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>https://wiki.kaygb.com.com/</id><title>Kaygb's wiki</title><updated>2021-02-16T09:16:48.424489+08:06</updated><author><name>珂泽</name><email>hi@kaygb.com</email></author><link href="https://wiki.kaygb.com.com/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</logo><subtitle>珂泽的Wiki站点，用来记录零零散散的笔记！</subtitle><entry><id>https://wiki.kaygb.com.com/archives/zh-doc-of-typecho-theme-winds/</id><title>Typecho theme winds 使用文档</title><updated>2021-02-16T09:16:48.424930+00:00</updated><author><name>风也</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
 部分样式借鉴 VOID Material sagiri ，非常感谢！&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -64,7 +64,7 @@
 &lt;p&gt;或者直接在下方留言&lt;/p&gt;
 &lt;h2&gt;提问的艺术&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md"&gt;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/zh-doc-of-typecho-theme-winds/" rel="alternate"/><published>2020-05-12T20:14:00+08:06</published></entry><entry><id>/archives/20200520-typecho-posts-category-comments=pages-num/</id><title>Typecho获取所有的文章、分类、评论、页面数量</title><updated>2021-02-06T12:56:51.246251+00:00</updated><author><name>风也</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;在写WINDS侧边栏的时候用到的代码，可以获取所有文章数量，分类数量，评论数量，独立页面数量。&lt;/p&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/zh-doc-of-typecho-theme-winds/" rel="alternate"/><published>2020-05-12T20:14:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20200520-typecho-posts-category-comments=pages-num/</id><title>Typecho获取所有的文章、分类、评论、页面数量</title><updated>2021-02-16T09:16:48.424803+00:00</updated><author><name>风也</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;在写WINDS侧边栏的时候用到的代码，可以获取所有文章数量，分类数量，评论数量，独立页面数量。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;Typecho_Widget&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="na"&gt;widget&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Widget_Stat&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;to&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
 &lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;文章数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedPostsNum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 &lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;分类数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;categoriesNum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
@@ -72,7 +72,7 @@
 &lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;页面数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedPagesNum&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href="https://typechoer.com/81.html"&gt;https://typechoer.com/81.html&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/20200520-typecho-posts-category-comments=pages-num/" rel="alternate"/><published>2020-05-20T11:19:00+08:06</published></entry><entry><id>/archives/20200604-typecho-emoji/</id><title>让Typecho支持Emoji表情</title><updated>2021-02-06T12:56:51.246220+00:00</updated><author><name>风也</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;Typecho默认不支持emoji表情是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20200520-typecho-posts-category-comments=pages-num/" rel="alternate"/><published>2020-05-20T11:19:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20200604-typecho-emoji/</id><title>让Typecho支持Emoji表情</title><updated>2021-02-16T09:16:48.424780+00:00</updated><author><name>风也</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;Typecho默认不支持emoji表情是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
 &lt;p&gt;Emoji是一种在Unicode位于u1F601-u1F64F区段的字符。这个显然超过了目前常用的UTF-8字符集的编码范围u0000-uFFFF。在MySQL中，UTF-8只支持最多3个字节，而emoji是4个字节。这就导致如果你不修改数据库的话，typecho是无法支持Emoji表情的。&lt;/p&gt;
 &lt;p&gt;当然好消息是utf8mb4其实是完全兼容utf-8，修改后不会影响现有数据及后期数据。&lt;/p&gt;
 &lt;p&gt;1.修改数据库编码&lt;/p&gt;
@@ -98,7 +98,7 @@
 &lt;p&gt;😷😀😂🤣😃😄😅🚚😊😋😎😍😘😗😙😚🙂🤗💰🙏💪👕☎🐁🚀📡🍎💯📺🚴&lt;/p&gt;
 &lt;p&gt;本文转载来源：旧日的足迹
 原文链接：&lt;a href="https://jrdzj.cc/2020-03-07.html"&gt;https://jrdzj.cc/2020-03-07.html&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/20200604-typecho-emoji/" rel="alternate"/><published>2020-06-04T10:33:00+08:06</published></entry><entry><id>/archives/20201220-leecode-1431/</id><title>LeetCode 1431. 拥有最多糖果的孩子</title><updated>2021-02-06T12:56:51.246099+00:00</updated><author><name>珂泽</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;h2&gt;题目描述&lt;/h2&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20200604-typecho-emoji/" rel="alternate"/><published>2020-06-04T10:33:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20201220-leecode-1431/</id><title>LeetCode 1431. 拥有最多糖果的孩子</title><updated>2021-02-16T09:16:48.424758+00:00</updated><author><name>珂泽</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;h2&gt;题目描述&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;拥有最多糖果的孩子&lt;/li&gt;
 &lt;/ol&gt;
@@ -165,7 +165,7 @@
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20201220-leecode-1431/" rel="alternate"/><published>2020-12-20T20:06:00+08:06</published></entry><entry><id>/archives/20201221-leecode-771/</id><title>LeetCode 771. 宝石与石头</title><updated>2021-02-06T12:56:51.246074+00:00</updated><author><name>珂泽</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;h2&gt;题目描述&lt;/h2&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20201220-leecode-1431/" rel="alternate"/><published>2020-12-20T20:06:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20201221-leecode-771/</id><title>LeetCode 771. 宝石与石头</title><updated>2021-02-16T09:16:48.424734+00:00</updated><author><name>珂泽</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;h2&gt;题目描述&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://leetcode-cn.com/problems/jewels-and-stones/"&gt;771. 宝石与石头&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;给定字符串&lt;code&gt;J&lt;/code&gt; 代表石头中宝石的类型，和字符串 &lt;code&gt;S&lt;/code&gt;代表你拥有的石头。 &lt;code&gt;S&lt;/code&gt; 中每个字符代表了一种你拥有的石头的类型，你想知道你拥有的石头中有多少是宝石。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;J&lt;/code&gt; 中的字母不重复，&lt;code&gt;J&lt;/code&gt; 和 &lt;code&gt;S&lt;/code&gt;中的所有字符都是字母。字母区分大小写，因此&lt;code&gt;"a"&lt;/code&gt;和&lt;code&gt;"A"&lt;/code&gt;是不同类型的石头。&lt;/p&gt;
@@ -212,7 +212,7 @@
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20201221-leecode-771/" rel="alternate"/><published>2020-12-21T15:21:00+08:06</published></entry><entry><id>/archives/20201226-android-arch-coding-style/</id><title>安卓开发规范</title><updated>2021-02-06T12:56:51.246050+00:00</updated><author><name>珂泽</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;blockquote&gt;&lt;p&gt;Google官方Java代码风格参考规范&lt;a href="http://google-styleguide.googlecode.com/svn/trunk/javaguide.html"&gt;链接&lt;/a&gt;， 中文翻译参考版&lt;a href="http://hawstein.com/posts/google-java-style.html"&gt;链接&lt;/a&gt;。&lt;/p&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20201221-leecode-771/" rel="alternate"/><published>2020-12-21T15:21:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20201226-android-arch-coding-style/</id><title>安卓开发规范</title><updated>2021-02-16T09:16:48.424710+00:00</updated><author><name>珂泽</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;blockquote&gt;&lt;p&gt;Google官方Java代码风格参考规范&lt;a href="http://google-styleguide.googlecode.com/svn/trunk/javaguide.html"&gt;链接&lt;/a&gt;， 中文翻译参考版&lt;a href="http://hawstein.com/posts/google-java-style.html"&gt;链接&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;本文转载来源：&lt;a href="https://gityuan.com/2015/08/10/android-arch-coding-style/"&gt;https://gityuan.com/2015/08/10/android-arch-coding-style/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;命名规范&lt;/h2&gt;
@@ -676,7 +676,7 @@ TextView passwordTxt;&lt;/code&gt;&lt;/pre&gt;
   &amp;lt;color name="dark_blue"&amp;gt;#0079FF&amp;lt;/color&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="/archives/20201226-android-arch-coding-style/" rel="alternate"/><published>2020-12-26T20:45:00+08:06</published></entry><entry><id>/archives/20210206-lq-swapxy-class/</id><title>蓝桥算法训练-数据交换</title><updated>2021-02-06T12:56:51.246025+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;试题 算法训练 数据交换&lt;/p&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20201226-android-arch-coding-style/" rel="alternate"/><published>2020-12-26T20:45:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20210206-lq-swapxy-class/</id><title>蓝桥算法训练-数据交换</title><updated>2021-02-16T09:16:48.424685+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;试题 算法训练 数据交换&lt;/p&gt;
 &lt;h2&gt;资源限制&lt;/h2&gt;
 &lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
 &lt;h2&gt;问题描述&lt;/h2&gt;
@@ -711,7 +711,7 @@ TextView passwordTxt;&lt;/code&gt;&lt;/pre&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20210206-lq-swapxy-class/" rel="alternate"/><published>2021-02-06T18:03:00+08:06</published></entry><entry><id>/archives/20210206-lq-string-class/</id><title>蓝桥算法提高-字符串操作</title><updated>2021-02-06T12:56:51.245999+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;试题 算法提高 字符串的操作&lt;/p&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20210206-lq-swapxy-class/" rel="alternate"/><published>2021-02-06T18:03:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20210206-lq-string-class/</id><title>蓝桥算法提高-字符串操作</title><updated>2021-02-16T09:16:48.424657+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;试题 算法提高 字符串的操作&lt;/p&gt;
 &lt;h2&gt;资源限制&lt;/h2&gt;
 &lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
 &lt;h2&gt;问题描述&lt;/h2&gt;
@@ -854,7 +854,7 @@ Swap 1 2 3 7&lt;/p&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20210206-lq-string-class/" rel="alternate"/><published>2021-02-06T18:03:00+08:06</published></entry><entry><id>/archives/20210206-lq-three-int-sort/</id><title>蓝桥算法提高-三个整数排序</title><updated>2021-02-06T12:56:51.245970+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;试题 算法提高 三个整数的排序&lt;/p&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20210206-lq-string-class/" rel="alternate"/><published>2021-02-06T18:03:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20210206-lq-three-int-sort/</id><title>蓝桥算法提高-三个整数排序</title><updated>2021-02-16T09:16:48.424606+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;p&gt;试题 算法提高 三个整数的排序&lt;/p&gt;
 &lt;h2&gt;资源限制&lt;/h2&gt;
 &lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
 &lt;h2&gt;问题描述&lt;/h2&gt;
@@ -890,7 +890,7 @@ Swap 1 2 3 7&lt;/p&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20210206-lq-three-int-sort/" rel="alternate"/><published>2021-02-06T18:27:00+08:06</published></entry><entry><id>/archives/20210206-lq-jswt/</id><title>蓝桥算法提高-计数问题</title><updated>2021-02-06T12:56:51.245920+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;h2&gt;试题 算法提高 计数问题&lt;/h2&gt;
+</content><link href="https://wiki.kaygb.com.com/archives/20210206-lq-three-int-sort/" rel="alternate"/><published>2021-02-06T18:27:00+08:06</published></entry><entry><id>https://wiki.kaygb.com.com/archives/20210206-lq-jswt/</id><title>蓝桥算法提高-计数问题</title><updated>2021-02-16T09:16:48.424553+00:00</updated><author><name>kaygb</name><email>hi@kaygb.com</email><uri>https://www.kaygb.com</uri></author><content>&lt;h2&gt;试题 算法提高 计数问题&lt;/h2&gt;
 &lt;h2&gt;资源限制&lt;/h2&gt;
 &lt;p&gt;时间限制：1.0s  内存限制：128.0MB&lt;/p&gt;
 &lt;h2&gt;问题描述&lt;/h2&gt;
@@ -943,4 +943,4 @@ Swap 1 2 3 7&lt;/p&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</content><link href="/archives/20210206-lq-jswt/" rel="alternate"/><published>2021-02-06T20:53:00+08:06</published></entry></feed>
+</content><link href="https://wiki.kaygb.com.com/archives/20210206-lq-jswt/" rel="alternate"/><published>2021-02-06T20:53:00+08:06</published></entry></feed>
