@@ -5,147 +5,147 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	
 
 <url>
-    <loc>https://wiki.kaygb.com.com/about/</loc>
+    <loc>https://wiki.kaygb.com/about/</loc>
     <lastmod>2020-02-24</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20210206-lq-jswt/</loc>
+    <loc>https://wiki.kaygb.com/archives/20210206-lq-jswt/</loc>
     <lastmod>2021-02-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20210206-lq-three-int-sort/</loc>
+    <loc>https://wiki.kaygb.com/archives/20210206-lq-three-int-sort/</loc>
     <lastmod>2021-02-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20210206-lq-string-class/</loc>
+    <loc>https://wiki.kaygb.com/archives/20210206-lq-string-class/</loc>
     <lastmod>2021-02-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20210206-lq-swapxy-class/</loc>
+    <loc>https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</loc>
     <lastmod>2021-02-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20201226-android-arch-coding-style/</loc>
+    <loc>https://wiki.kaygb.com/archives/20201226-android-arch-coding-style/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20201221-leecode-771/</loc>
+    <loc>https://wiki.kaygb.com/archives/20201221-leecode-771/</loc>
     <lastmod>2020-12-21</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20201220-leecode-1431/</loc>
+    <loc>https://wiki.kaygb.com/archives/20201220-leecode-1431/</loc>
     <lastmod>2020-12-20</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200604-typecho-emoji/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200604-typecho-emoji/</loc>
     <lastmod>2020-06-04</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200520-typecho-posts-category-comments=pages-num/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200520-typecho-posts-category-comments=pages-num/</loc>
     <lastmod>2020-05-20</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/zh-doc-of-typecho-theme-winds/</loc>
+    <loc>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</loc>
     <lastmod>2020-05-12</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200509-css-delete-input-default-style/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200509-css-delete-input-default-style/</loc>
     <lastmod>2020-05-09</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/202004-c-continue-and-break/</loc>
+    <loc>https://wiki.kaygb.com/archives/202004-c-continue-and-break/</loc>
     <lastmod>2020-04-05</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200321-c-suanfa-liuchengtu/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200321-c-suanfa-liuchengtu/</loc>
     <lastmod>2020-03-21</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200304-c-continue-and-break/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200304-c-continue-and-break/</loc>
     <lastmod>2020-03-04</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200304-css-fixed-align-center/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200304-css-fixed-align-center/</loc>
     <lastmod>2020-03-04</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200301-C-break-and-continue/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200301-C-break-and-continue/</loc>
     <lastmod>2020-03-01</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200301-C-sushupanduan/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200301-C-sushupanduan/</loc>
     <lastmod>2020-03-01</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</loc>
     <lastmod>2020-02-25</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200224-lanuage-c-while-and-for/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200224-lanuage-c-while-and-for/</loc>
     <lastmod>2020-02-24</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com.com/archives/20200224-speeding-judgment/</loc>
+    <loc>https://wiki.kaygb.com/archives/20200224-speeding-judgment/</loc>
     <lastmod>2020-02-24</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
