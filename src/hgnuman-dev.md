@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HGNUMAN 开发我问的 
+title: HGNUMAN 开发文档
 slug: hgnuman-dev-doc
 date: 2021-07-15 11:50
 status: publish
