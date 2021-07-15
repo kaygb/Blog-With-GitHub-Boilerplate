@@ -35,17 +35,12 @@ external_links = [
     {
         "name": "HOME",
         "url": "https://www.kaygb.com",
-        "brief": "HOME。"
+        "brief": "HOME"
     },
     {
         "name": "BLOG",
         "url": "https://blog.kaygb.com",
-        "brief": "风也雨忆笙。"
-    },
-    {
-        "name": "STATUS",
-        "url": "https://status.eas1.cn",
-        "brief": "服务监控。"
+        "brief": "Kaygb's Blog"
     },
     {
         "name": "GITHUB",
