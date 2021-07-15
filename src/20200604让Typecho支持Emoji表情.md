@@ -4,10 +4,9 @@ title: 让Typecho支持Emoji表情
 slug: 20200604-typecho-emoji
 date: 2020-06-04 10:33
 status: publish
-author: 风也
+author: kaygb
 categories: 
   - 编程笔记
-  - TYPECHO
 tags: 
   - typecho
   - emoji

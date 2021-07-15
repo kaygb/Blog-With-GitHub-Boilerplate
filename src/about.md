@@ -7,7 +7,7 @@ status: publish
 author: 珂泽
 ---
 
-这里是珂泽的笔记站点，使用 Maverick 通过 GitHub 管理与构建，用来记录零散的知识，同时提升自己，做一个更加优秀的人！
+这里是珂泽的项目WIKI站点，使用 Maverick 通过 GitHub 管理与构建。
 
 ## Contact
 

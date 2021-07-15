@@ -4,7 +4,7 @@ title: Typecho theme winds 使用文档
 slug: zh-doc-of-typecho-theme-winds
 date: 2020-05-12 20:14
 status: publish
-author: 风也
+author: 珂泽
 categories: 
   - 项目文档
 tags: 
@@ -13,7 +13,9 @@ tags:
 excerpt: WINDS —— 如风吹拂
 ---
 
-入坑了typecho，那就要留点纪念呀！一款typecho主题，免费开源，虽然写的并不是很好，比不上大佬的主题，但是还是希望大家能够喜欢！
+## 介绍
+
+WINDS - 如风吹拂，一款Typecho主题。
 
 > 非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
 > 部分样式借鉴 VOID Material sagiri ，非常感谢！
@@ -124,8 +126,6 @@ http://www.imhan.com/archives/typecho-links/
 ## 反馈
 
 [点击此处提交ISSUE](https://github.com/kaygb/typecho-theme-winds/issues)
-
-或者直接在下方留言
 
 ## 提问的艺术
 
