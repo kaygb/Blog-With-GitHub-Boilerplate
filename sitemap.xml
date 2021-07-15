@@ -12,71 +12,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com/archives/2021024-lq-zhishu/</loc>
-    <lastmod>2021-02-24</lastmod>
+    <loc>https://wiki.kaygb.com/archives/how-to-use-hgnuman/</loc>
+    <lastmod>2021-07-15</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com/archives/20210206-lq-jswt/</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20210206-lq-three-int-sort/</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20210206-lq-string-class/</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20201226-android-arch-coding-style/</loc>
-    <lastmod>2020-12-26</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20201221-leecode-771/</loc>
-    <lastmod>2020-12-21</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20201220-leecode-1431/</loc>
-    <lastmod>2020-12-20</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200604-typecho-emoji/</loc>
-    <lastmod>2020-06-04</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200520-typecho-posts-category-comments=pages-num/</loc>
-    <lastmod>2020-05-20</lastmod>
+    <loc>https://wiki.kaygb.com/archives/hgnuman-dev-doc/</loc>
+    <lastmod>2021-07-15</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
@@ -84,13 +28,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
     <loc>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</loc>
     <lastmod>2020-05-12</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200509-css-delete-input-default-style/</loc>
-    <lastmod>2020-05-09</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
