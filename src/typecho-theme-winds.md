@@ -6,7 +6,7 @@ date: 2020-05-12 20:14
 status: publish
 author: 珂泽
 categories: 
-  - 项目文档
+  - WINDS
 tags: 
   - WINDS
   - typecho主题
