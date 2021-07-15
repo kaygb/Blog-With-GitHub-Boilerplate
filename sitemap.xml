@@ -33,14 +33,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com/archives/20210206-lq-string-class/</loc>
+    <loc>https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</loc>
     <lastmod>2021-02-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</loc>
+    <loc>https://wiki.kaygb.com/archives/20210206-lq-string-class/</loc>
     <lastmod>2021-02-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -91,69 +91,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
     <loc>https://wiki.kaygb.com/archives/20200509-css-delete-input-default-style/</loc>
     <lastmod>2020-05-09</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/202004-c-continue-and-break/</loc>
-    <lastmod>2020-04-05</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200321-c-suanfa-liuchengtu/</loc>
-    <lastmod>2020-03-21</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200304-c-continue-and-break/</loc>
-    <lastmod>2020-03-04</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200304-css-fixed-align-center/</loc>
-    <lastmod>2020-03-04</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200301-C-break-and-continue/</loc>
-    <lastmod>2020-03-01</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200301-C-sushupanduan/</loc>
-    <lastmod>2020-03-01</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200225-lanuage-c-for-zhi-xing-shun-xu/</loc>
-    <lastmod>2020-02-25</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200224-lanuage-c-while-and-for/</loc>
-    <lastmod>2020-02-24</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>https://wiki.kaygb.com/archives/20200224-speeding-judgment/</loc>
-    <lastmod>2020-02-24</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>

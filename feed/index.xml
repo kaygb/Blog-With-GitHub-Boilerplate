@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Wed, 24 Feb 2021 02:42:49 +0806</lastBuildDate><pubDate>Wed, 24 Feb 2021 02:42:49 +0806</pubDate><item><title>Typecho获取所有的文章、分类、评论、页面数量</title><link>https://wiki.kaygb.com/archives/20200520-typecho-posts-category-comments=pages-num/</link><description>&lt;p&gt;在写WINDS侧边栏的时候用到的代码，可以获取所有文章数量，分类数量，评论数量，独立页面数量。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Thu, 15 Jul 2021 03:34:37 +0806</lastBuildDate><pubDate>Thu, 15 Jul 2021 03:34:37 +0806</pubDate><item><title>Typecho获取所有的文章、分类、评论、页面数量</title><link>https://wiki.kaygb.com/archives/20200520-typecho-posts-category-comments=pages-num/</link><description>&lt;p&gt;在写WINDS侧边栏的时候用到的代码，可以获取所有文章数量，分类数量，评论数量，独立页面数量。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;Typecho_Widget&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="na"&gt;widget&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Widget_Stat&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;to&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
 &lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;文章数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedPostsNum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 &lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;分类数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;categoriesNum&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
@@ -7,7 +7,7 @@
 &lt;span class="x"&gt;    &amp;lt;li&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;?php&lt;/span&gt; &lt;span class="nx"&gt;_e&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;页面数量：&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&amp;lt;?php&lt;/span&gt; &lt;span class="k"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$stat&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;publishedPagesNum&lt;/span&gt; &lt;span class="cp"&gt;?&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href="https://typechoer.com/81.html"&gt;https://typechoer.com/81.html&lt;/a&gt;&lt;/p&gt;
-</description><author>hi@kaygb.com (风也)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20200520-typecho-posts-category-comments=pages-num/</guid><pubDate>Wed, 20 May 2020 11:19:00 +0806</pubDate></item><item><title>让Typecho支持Emoji表情</title><link>https://wiki.kaygb.com/archives/20200604-typecho-emoji/</link><description>&lt;p&gt;Typecho默认不支持emoji表情是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20200520-typecho-posts-category-comments=pages-num/</guid><pubDate>Wed, 20 May 2020 11:19:00 +0806</pubDate></item><item><title>让Typecho支持Emoji表情</title><link>https://wiki.kaygb.com/archives/20200604-typecho-emoji/</link><description>&lt;p&gt;Typecho默认不支持emoji表情是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
 &lt;p&gt;Emoji是一种在Unicode位于u1F601-u1F64F区段的字符。这个显然超过了目前常用的UTF-8字符集的编码范围u0000-uFFFF。在MySQL中，UTF-8只支持最多3个字节，而emoji是4个字节。这就导致如果你不修改数据库的话，typecho是无法支持Emoji表情的。&lt;/p&gt;
 &lt;p&gt;当然好消息是utf8mb4其实是完全兼容utf-8，修改后不会影响现有数据及后期数据。&lt;/p&gt;
 &lt;p&gt;1.修改数据库编码&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;😷😀😂🤣😃😄😅🚚😊😋😎😍😘😗😙😚🙂🤗💰🙏💪👕☎🐁🚀📡🍎💯📺🚴&lt;/p&gt;
 &lt;p&gt;本文转载来源：旧日的足迹
 原文链接：&lt;a href="https://jrdzj.cc/2020-03-07.html"&gt;https://jrdzj.cc/2020-03-07.html&lt;/a&gt;&lt;/p&gt;
-</description><author>hi@kaygb.com (风也)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20200604-typecho-emoji/</guid><pubDate>Thu, 04 Jun 2020 10:33:00 +0806</pubDate></item><item><title>LeetCode 1431. 拥有最多糖果的孩子</title><link>https://wiki.kaygb.com/archives/20201220-leecode-1431/</link><description>&lt;h2&gt;题目描述&lt;/h2&gt;
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20200604-typecho-emoji/</guid><pubDate>Thu, 04 Jun 2020 10:33:00 +0806</pubDate></item><item><title>LeetCode 1431. 拥有最多糖果的孩子</title><link>https://wiki.kaygb.com/archives/20201220-leecode-1431/</link><description>&lt;h2&gt;题目描述&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;拥有最多糖果的孩子&lt;/li&gt;
 &lt;/ol&gt;
@@ -611,42 +611,7 @@ TextView passwordTxt;&lt;/code&gt;&lt;/pre&gt;
   &amp;lt;color name="dark_blue"&amp;gt;#0079FF&amp;lt;/color&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20201226-android-arch-coding-style/</guid><pubDate>Sat, 26 Dec 2020 20:45:00 +0806</pubDate></item><item><title>蓝桥算法训练-数据交换</title><link>https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</link><description>&lt;p&gt;试题 算法训练 数据交换&lt;/p&gt;
-&lt;h2&gt;资源限制&lt;/h2&gt;
-&lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
-&lt;h2&gt;问题描述&lt;/h2&gt;
-&lt;p&gt;　　编写一个程序，输入两个整数，分别存放在变量x和y当中，然后使用自己定义的函数swap来交换这两个变量的值。
-　　输入格式：输入只有一行，包括两个整数。
-　　输出格式：输出只有一行，也是两个整数，即交换以后的结果。
-　　要求：主函数负责数据的输入与输出，但不能直接交换这两个变量的值，必须通过调用单独定义的函数swap来完成，而swap函数只负责交换变量的值，不能输出交换后的结果。&lt;/p&gt;
-&lt;h2&gt;输入输出样例&lt;/h2&gt;
-&lt;h3&gt;样例输入&lt;/h3&gt;
-&lt;p&gt;4 7&lt;/p&gt;
-&lt;h3&gt;样例输出&lt;/h3&gt;
-&lt;p&gt;7 4&lt;/p&gt;
-&lt;h2&gt;分析&lt;/h2&gt;
-&lt;p&gt;写一个函数，将传入的值写入一个数组，然后返回数组。
-这里使用指针指向数组的地址，要返回数组的时候，函数内部的数组一定要用static修饰一下，不然会报错。&lt;/p&gt;
-&lt;h2&gt;代码&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
-&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nf"&gt;swap&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;cin&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;swap&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="n"&gt;cout&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot; &amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nf"&gt;swap&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
-    &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
-    &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item><item><title>蓝桥算法提高-字符串操作</title><link>https://wiki.kaygb.com/archives/20210206-lq-string-class/</link><description>&lt;p&gt;试题 算法提高 字符串的操作&lt;/p&gt;
+</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20201226-android-arch-coding-style/</guid><pubDate>Sat, 26 Dec 2020 20:45:00 +0806</pubDate></item><item><title>蓝桥算法提高-字符串操作</title><link>https://wiki.kaygb.com/archives/20210206-lq-string-class/</link><description>&lt;p&gt;试题 算法提高 字符串的操作&lt;/p&gt;
 &lt;h2&gt;资源限制&lt;/h2&gt;
 &lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
 &lt;h2&gt;问题描述&lt;/h2&gt;
@@ -714,7 +679,7 @@ Swap 1 2 3 7&lt;/p&gt;
 &lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;string&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;algorithm&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 
-&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="nn"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="nf"&gt;Appendstr&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="n"&gt;str1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="nf"&gt;Insertstr&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="n"&gt;str1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="nf"&gt;Swapstr&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
@@ -789,7 +754,42 @@ Swap 1 2 3 7&lt;/p&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20210206-lq-string-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item><item><title>蓝桥算法提高-三个整数排序</title><link>https://wiki.kaygb.com/archives/20210206-lq-three-int-sort/</link><description>&lt;p&gt;试题 算法提高 三个整数的排序&lt;/p&gt;
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20210206-lq-string-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item><item><title>蓝桥算法训练-数据交换</title><link>https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</link><description>&lt;p&gt;试题 算法训练 数据交换&lt;/p&gt;
+&lt;h2&gt;资源限制&lt;/h2&gt;
+&lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
+&lt;h2&gt;问题描述&lt;/h2&gt;
+&lt;p&gt;　　编写一个程序，输入两个整数，分别存放在变量x和y当中，然后使用自己定义的函数swap来交换这两个变量的值。
+　　输入格式：输入只有一行，包括两个整数。
+　　输出格式：输出只有一行，也是两个整数，即交换以后的结果。
+　　要求：主函数负责数据的输入与输出，但不能直接交换这两个变量的值，必须通过调用单独定义的函数swap来完成，而swap函数只负责交换变量的值，不能输出交换后的结果。&lt;/p&gt;
+&lt;h2&gt;输入输出样例&lt;/h2&gt;
+&lt;h3&gt;样例输入&lt;/h3&gt;
+&lt;p&gt;4 7&lt;/p&gt;
+&lt;h3&gt;样例输出&lt;/h3&gt;
+&lt;p&gt;7 4&lt;/p&gt;
+&lt;h2&gt;分析&lt;/h2&gt;
+&lt;p&gt;写一个函数，将传入的值写入一个数组，然后返回数组。
+这里使用指针指向数组的地址，要返回数组的时候，函数内部的数组一定要用static修饰一下，不然会报错。&lt;/p&gt;
+&lt;h2&gt;代码&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="nn"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nf"&gt;swap&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;cin&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;swap&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="n"&gt;cout&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot; &amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nf"&gt;swap&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+    &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+    &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+</description><author>hi@kaygb.com (kaygb)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/20210206-lq-swapxy-class/</guid><pubDate>Sat, 06 Feb 2021 18:03:00 +0806</pubDate></item><item><title>蓝桥算法提高-三个整数排序</title><link>https://wiki.kaygb.com/archives/20210206-lq-three-int-sort/</link><description>&lt;p&gt;试题 算法提高 三个整数的排序&lt;/p&gt;
 &lt;h2&gt;资源限制&lt;/h2&gt;
 &lt;p&gt;时间限制：1.0s   内存限制：256.0MB&lt;/p&gt;
 &lt;h2&gt;问题描述&lt;/h2&gt;
@@ -808,7 +808,7 @@ Swap 1 2 3 7&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;algorithm&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
-&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="nn"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="n"&gt;vector&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
     &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -856,7 +856,7 @@ Swap 1 2 3 7&lt;/p&gt;
 &lt;p&gt;处理读入的数，当大于0  的时候对10取余，如果与x相等则sum加一，然后除十继续取余。&lt;/p&gt;
 &lt;h2&gt;代码&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
-&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="nn"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 
@@ -903,7 +903,7 @@ Swap 1 2 3 7&lt;/p&gt;
 &lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;algorithm&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;math.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
-&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="nn"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="n"&gt;vector&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
