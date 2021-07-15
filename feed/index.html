@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Thu, 15 Jul 2021 03:51:40 +0806</lastBuildDate><pubDate>Thu, 15 Jul 2021 03:51:40 +0806</pubDate><item><title>Typecho theme winds 使用文档</title><link>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Thu, 15 Jul 2021 07:36:48 +0806</lastBuildDate><pubDate>Thu, 15 Jul 2021 07:36:48 +0806</pubDate><item><title>Typecho theme winds 使用文档</title><link>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
 &lt;p&gt;WINDS - 如风吹拂，一款Typecho主题。&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
 部分样式借鉴 VOID Material sagiri ，非常感谢！&lt;/p&gt;
@@ -65,9 +65,64 @@
 &lt;h2&gt;提问的艺术&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md"&gt;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md&lt;/a&gt;&lt;/p&gt;
 </description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</guid><pubDate>Tue, 12 May 2020 20:14:00 +0806</pubDate></item><item><title>HGNUMAN 报修系统使用帮助</title><link>https://wiki.kaygb.com/archives/how-to-use-hgnuman/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
+&lt;p&gt;一款为校园内教室设备报修的系统，包括三种角色（管理员，维修人员，普通用户）&lt;/p&gt;
 &lt;h2&gt;安装&lt;/h2&gt;
+&lt;p&gt;本系统基于JDK11开发，首先需要在服务器安装jdk。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://jdk.java.net/java-se-ri/11"&gt;Java Platform, Standard Edition 11 Reference Implementations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在根目录创建文件夹，然后上传Jar包到服务器&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /
+mkdir hgnuman
+// 上传
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;然后使用以下命令运行：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;8036&lt;/span&gt; &amp;gt;&amp;gt; /hgnuman/hgnuman.log &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;等待一分钟左右，访问：ip:8036 查看是否启动成功&lt;/p&gt;
 &lt;h2&gt;使用&lt;/h2&gt;
+&lt;h3&gt;普通用户&lt;/h3&gt;
+&lt;p&gt;首先注册账号，然后登录到系统中&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1230" data-height="894" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/56c227b6fe44ff5f7bbc3299717623d5.png" alt="hgnuman-help1" /&gt;&lt;figcaption&gt;hgnuman-help1&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1932" data-height="927" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/4c5a273c1b31b3c0a1b423f520b3f8e7.png" alt="image-20210715150911713" /&gt;&lt;figcaption&gt;image-20210715150911713&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;点击左侧栏创建维修单，填写教室号，故障描述，选择设备分类和所在教学楼。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="397" data-height="815" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/df46c5e04b1b339bbf703420ff6d1a87.png" alt="image-20210715151127816" /&gt;&lt;figcaption&gt;image-20210715151127816&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;上传照片，需要您使用系统相机拍照之后，点击上传图片按钮选择相应照片上传，上传完成会显示预览图片，点击创建即可。&lt;/p&gt;
+&lt;p&gt;创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一搬一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="510" data-height="842" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/48969a2d572daf36d0595aaa78627c9d.png" alt="image-20210715151422227" /&gt;&lt;figcaption&gt;image-20210715151422227&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;维修工&lt;/h3&gt;
+&lt;blockquote&gt;&lt;p&gt;待补充&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;管理员&lt;/h3&gt;
+&lt;p&gt;系统在第一次安装运行后，默认设置第一个注册的用户为管理员。&lt;/p&gt;
+&lt;p&gt;管理员可查看全部维修单，并导出维修单。&lt;/p&gt;
+&lt;p&gt;首次登录成功请在系统设置内设置系统域名，如&lt;code&gt;https://mana.eas1.cn&lt;/code&gt;(最后请不要添加斜杠)&lt;/p&gt;
+&lt;p&gt;系统初始化应包含以下步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;添加校区&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1614" data-height="719" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/da6561cb67a60095b74556da04a1655a.png" alt="image-20210715152245430" /&gt;&lt;figcaption&gt;image-20210715152245430&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;添加教学楼&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1659" data-height="449" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/ea11bb431effa4f11b8fc274e3d17a13.png" alt="image-20210715152347359" /&gt;&lt;figcaption&gt;image-20210715152347359&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1008" data-height="484" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/846cc81f792ce7a4449829d2265130fd.png" alt="image-20210715152336394" /&gt;&lt;figcaption&gt;image-20210715152336394&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;创建分类&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1504" data-height="713" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/3df173bbb0ac9e24ad3778a6c123e0cc.png" alt="image-20210715152412011" /&gt;&lt;figcaption&gt;image-20210715152412011&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h4&gt;用户管理&lt;/h4&gt;
+&lt;p&gt;默认情况下，系统允许用户自主修改个人信息，但不包括学工号，管理员可在用户管理界面修改用户所有信息包括学工号，可设置用户的权限角色。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1656" data-height="773" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/a2744b93e8cae826660174cfb1e028c4.png" alt="image-20210715152701796" /&gt;&lt;figcaption&gt;image-20210715152701796&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="593" data-height="610" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/ea5f68bd2517c253577b5ec7a9065024.png" alt="image-20210715152741758" /&gt;&lt;figcaption&gt;image-20210715152741758&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h4&gt;导出数据&lt;/h4&gt;
+&lt;p&gt;系统支持选择时间区间进行数任务单数据的导出，默认选择不包括当天的前一周提交的所有维修单数据，点击提交导出请求按钮，将会进行处理，稍等片刻，从下方的表格处点击下载按钮即可下载。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1385" data-height="842" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/549faffc75aafe847f78503f18b40eea.png" alt="image-20210715152842355" /&gt;&lt;figcaption&gt;image-20210715152842355&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;导出时间与服务器性能和数据数量有关，在开发者设备测试时，7万条数据导出时间在十秒钟左右。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;导出的EXCEL字段如下：&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="1756" data-height="174" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/a39cdf8c9444f00acc534b7c6d591bac.png" alt="image-20210715153354710" /&gt;&lt;figcaption&gt;image-20210715153354710&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;反馈&lt;/h2&gt;
+&lt;p&gt;邮箱: support#kaygb.com(#替换为@)&lt;/p&gt;
+&lt;p&gt;QQ: 511425672&lt;/p&gt;
 </description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/how-to-use-hgnuman/</guid><pubDate>Thu, 15 Jul 2021 11:46:00 +0806</pubDate></item><item><title>HGNUMAN 开发文档</title><link>https://wiki.kaygb.com/archives/hgnuman-dev-doc/</link><description>&lt;blockquote&gt;&lt;p&gt;待完善&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;实体类&lt;/h2&gt;
