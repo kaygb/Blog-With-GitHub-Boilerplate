@@ -12,11 +12,37 @@ tags:
   - 教室报修管理系统
 ---
 
-> 待完善
+## 框架
+
+前端：layui
+
+后端：Springboot 
+
+模板引擎：Thymleaf
+
+组件：
+
+- EasyExcel
+- antisamy
+- kapcha
+- lombok
+- spring-data-jpa
 
 ## 实体类
 
-...
+| 类名        | 功能     |
+| ----------- | -------- |
+| Camp        | 校区     |
+| Building    | 教学楼   |
+| Category    | 任务分类 |
+| Room        | 教室号   |
+| SiteSetting |          |
+| Task        |          |
+| TaskExport  |          |
+| User        |          |
+| UserPvi     |          |
+
+
 
 ## 路由控制
 
