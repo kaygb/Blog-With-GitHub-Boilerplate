@@ -1,12 +1,12 @@
 ---
 layout: post
-title: HGNUMAN教室报修管理系统使用帮助 
+title: 教室报修管理系统（HGNUMAN）文档 
 slug: how-to-use-hgnuman
 date: 2021-07-15 11:46
 status: publish
 author: 珂泽
 categories: 
-  - HGNUMAN
+  - 项目文档
 tags: 
   - HGNUMAN
   - 教室报修管理系统

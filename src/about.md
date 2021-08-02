@@ -7,7 +7,7 @@ status: publish
 author: 珂泽
 ---
 
-这里是珂泽的项目WIKI站点，使用 Maverick 通过 GitHub 管理与构建。
+这里是珂泽的项目文档站点，使用 Maverick 通过 GitHub 管理与构建。
 
 ## Contact
 
