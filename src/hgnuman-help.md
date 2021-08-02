@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 教室报修管理系统（HGNUMAN）文档 
+title: 教室报修管理系统（HGNUMAN）项目文档 
 slug: how-to-use-hgnuman
 date: 2021-07-15 11:46
 status: publish
@@ -14,20 +14,30 @@ tags:
 
 ## 介绍
 
-一款为校园内教室设备报修的系统，包括三种角色（管理员，维修人员，普通用户）
+一款为校园内教室设备报修而设计的系统，包括两种角色：管理员和信息员 。~~包括三种角色（管理员，维修人员，普通用户）~~
 
-## 安装
+报修流程：
 
-本系统基于JDK11开发，首先需要在服务器安装jdk。
+1. 信息员登入系统，点击故障报修，选择故障对象的位置和故障分类，填写故障描述，上传故障照片。
+2. 管理员通过后台导出故障数据提交给维修公司维修。
+3. 信息员查看所报修对象是否维修完成，并在系统确认维修状态。
 
-[Java Platform, Standard Edition 11 Reference Implementations](http://jdk.java.net/java-se-ri/11)
+## 部署
+
+所需环境及软件：
+
+- 64位Linux系统(建议Centos7，Ubuntu1804及以上)
+- OpenJDK11  (下载地址：[Java Platform, Standard Edition 11 Reference Implementations](http://jdk.java.net/java-se-ri/11))
+
+- Mysql8.0 （5.7 及以上）或MariaDB（推荐）
+- nginx（可选）
 
 在根目录创建文件夹，然后上传Jar包到服务器
 
 ```bash
 cd /
 mkdir hgnuman
-// 上传
+// 上传jar包
 ```
 
 然后使用以下命令运行：
@@ -36,7 +46,7 @@ mkdir hgnuman
 sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >> /hgnuman/hgnuman.log 2>&1 &
 ```
 
-等待一分钟左右，访问：ip:8036 查看是否启动成功
+等待一分钟左右，访问：`http://ip:8036` 查看是否启动成功，系统日志科查看`/hgnuman/hgnuman.log`
 
 ## 使用
 
@@ -58,9 +68,6 @@ sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >>
 
 ![image-20210715151422227](images/image-20210715151422227.png)
 
-### 维修工
-
-> 待补充
 
 ### 管理员
 
@@ -68,7 +75,7 @@ sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >>
 
 管理员可查看全部维修单，并导出维修单。
 
-首次登录成功请在系统设置内设置系统域名，如`https://mana.eas1.cn`(最后请不要添加斜杠)
+首次登录成功请在系统设置内设置系统域名用于数据导出的图片展示，如`https://mana.eas1.cn`(最后请不要添加斜杠)
 
 系统初始化应包含以下步骤：
 
@@ -76,7 +83,7 @@ sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >>
 
 ![image-20210715152245430](images/image-20210715152245430.png)
 
-2. 添加教学楼
+2. 添加教学楼和教室
 
 ![image-20210715152347359](images/image-20210715152347359.png)
 
@@ -107,6 +114,10 @@ sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >>
 导出的EXCEL字段如下：
 
 ![image-20210715153354710](images/image-20210715153354710.png)
+
+## 开发
+
+
 
 ## 反馈
 
