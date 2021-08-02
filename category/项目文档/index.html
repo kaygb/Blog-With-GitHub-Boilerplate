@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/3832eb34f9a2f05028d30f3d7ef0ffd5.json"
+            api: "https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/8b527f3bc12cea0c9f0dfc1b1fcea4bb.json"
         }
     </script>
     <script>
@@ -32,20 +32,19 @@
         });
     </script>
     
-<title>HGNUMAN 开发文档 - Kaygb's wiki</title>
+<title>Category: 项目文档 - Kaygb's wiki</title>
 <meta name="author" content="珂泽" />
-<meta name="description" content="框架" />
-<meta property="og:title" content="HGNUMAN 开发文档 - Kaygb's wiki" />
-<meta property="og:description" content="框架" />
+<meta name="description" content="珂泽的Wiki站点，用来记录零零散散的笔记！" />
+<meta property="og:title" content="Category: 项目文档 - Kaygb's wiki" />
+<meta property="og:description" content="珂泽的Wiki站点，用来记录零零散散的笔记！" />
 <meta property="og:site_name" content="Kaygb's wiki" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://wiki.kaygb.com/archives/hgnuman-dev-doc/" />
-<meta property="og:image" content="" />
-<meta property="article:published_time" content="2021-07-15T11:50:00-00.00" />
-<meta name="twitter:title" content="HGNUMAN 开发文档 - Kaygb's wiki" />
-<meta name="twitter:description" content="框架" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://wiki.kaygb.com/category/项目文档/" />
+<meta property="og:image" content="Kaygb's wiki" />
+<meta name="twitter:title" content="Category: 项目文档 - Kaygb's wiki" />
+<meta name="twitter:description" content="珂泽的Wiki站点，用来记录零零散散的笔记！" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="" />
+<meta name="twitter:image" content="https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg" />
 
 
     
@@ -58,7 +57,7 @@
 
     </head>
     
-    <body class="content">
+    <body class="archive">
         <header>
             <div class="container">
                 <section>
@@ -102,7 +101,7 @@
                     
                     <section>
                         
-    <div class="open "><span><a href="https://wiki.kaygb.com/category/HGNUMAN/">HGNUMAN</a><button class="toggle_sidebar fa"></button></span><ul><li class="current"><a href="https://wiki.kaygb.com/archives/hgnuman-dev-doc/">HGNUMAN 开发文档</a></li><li class=""><a href="https://wiki.kaygb.com/archives/how-to-use-hgnuman/">HGNUMAN教室报修管理系统使用帮助</a></li></ul></div><div class=" "><span><a href="https://wiki.kaygb.com/category/WINDS/">WINDS</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/">Typecho theme winds 使用文档</a></li></ul></div>
+    <div class="open current"><span><a href="https://wiki.kaygb.com/category/项目文档/">项目文档</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="https://wiki.kaygb.com/archives/how-to-use-hgnuman/">教室报修管理系统（HGNUMAN）文档</a></li><li class=""><a href="https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/">Typecho theme winds 使用文档</a></li></ul></div>
 
                     </section>
                     <section hidden class="sidebar-external-link">
@@ -120,121 +119,47 @@
                 </aside>
                 <div id="content-wrapper">
                     <div id="content">
-    <section>
-        <h1 class="post-title">HGNUMAN 开发文档</h1>
-        <p class="post-meta">
-            <time>July 15 2021</time>
-            <span class="tags">
-                
-                <span>
-                    <a href="https://wiki.kaygb.com/tag/HGNUMAN/">#HGNUMAN</a>
-                </span>
-                
-                <span>
-                    <a href="https://wiki.kaygb.com/tag/教室报修管理系统/">#教室报修管理系统</a>
-                </span>
-                
-            </span>
-        </p>
-        <article class="yue"><h2>框架</h2>
-<p>前端：layui</p>
-<p>后端：Springboot</p>
-<p>模板引擎：Thymleaf</p>
-<p>组件：</p>
-<ul>
-<li>EasyExcel</li>
-<li>antisamy</li>
-<li>kapcha</li>
-<li>lombok</li>
-<li>spring-data-jpa</li>
-</ul>
-<h2>实体类</h2>
-<table>
-<thead><tr>
-<th>类名</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Camp</td>
-<td>校区</td>
-</tr>
-<tr>
-<td>Building</td>
-<td>教学楼</td>
-</tr>
-<tr>
-<td>Category</td>
-<td>任务分类</td>
-</tr>
-<tr>
-<td>Room</td>
-<td><del>教室号</del></td>
-</tr>
-<tr>
-<td>SiteSetting</td>
-<td>网站设置</td>
-</tr>
-<tr>
-<td>Task</td>
-<td>任务单</td>
-</tr>
-<tr>
-<td>TaskExport</td>
-<td>导出记录</td>
-</tr>
-<tr>
-<td>User</td>
-<td>用户</td>
-</tr>
-<tr>
-<td>UserPvi</td>
-<td><del>用户权限</del></td>
-</tr>
-</tbody>
-</table>
-<h2>路由控制</h2>
-<h2>视图</h2>
-</article>
-    </section>
 
-    
-    <section id="content-pager">
-        
-        
-            <div class="prev">
-                <a class="card" href="https://wiki.kaygb.com/archives/how-to-use-hgnuman/">
-                    <time>July 15 2021</time>
-                    <span>HGNUMAN教室报修管理系统使用帮助</span>
-                </a>
-            </div>
-        
+    <section>
+        <h1 class="page-title">CATEGORY: 项目文档</h1>
+        <div id="content-list">
+            
+
+
+            <section class="card-list">
+                
+                    <a class="card" href="https://wiki.kaygb.com/archives/how-to-use-hgnuman/">
+                        <time>July 15 2021</time>
+                        <span>教室报修管理系统（HGNUMAN）文档</span>
+                    </a>
+                
+                    <a class="card" href="https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/">
+                        <time>May 12 2020</time>
+                        <span>Typecho theme winds 使用文档</span>
+                    </a>
+                
+            </section>
+        </div>
     </section>
-    
 
     
 
     <script>
-        document.body.classList.add('content');
-        document.body.classList.remove('archive');
+        document.body.classList.add('archive');
+        document.body.classList.remove('content');
     </script>
+
 </div>
                     <footer>
                         <span>Copyright © 2021 珂泽</span>
                         
-    
-
                         <span class="addon">
 <a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener">豫ICP备19002054号-6</a>
 </span>
                     </footer>
                 </div>
                 
-<aside id="toc-container" class="no-scrollbar">
-    <span><i class="fa fa-align-right"></i> CONTENTS</span>
-    <div id="toc"></div>
-</aside>
+<aside id="toc-container" class="no-scrollbar no-bg"></aside>
 
             </div>
         </main>
