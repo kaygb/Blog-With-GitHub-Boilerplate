@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Mon, 02 Aug 2021 06:57:19 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 06:57:19 +0806</pubDate><item><title>Typecho theme winds 使用文档</title><link>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Mon, 02 Aug 2021 07:15:18 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 07:15:18 +0806</pubDate><item><title>Typecho theme winds 使用文档</title><link>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
 &lt;p&gt;WINDS - 如风吹拂，一款Typecho主题。&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
 部分样式借鉴 VOID Material sagiri ，非常感谢！&lt;/p&gt;
@@ -64,20 +64,33 @@
 &lt;p&gt;&lt;a href="https://github.com/kaygb/typecho-theme-winds/issues"&gt;点击此处提交ISSUE&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;提问的艺术&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md"&gt;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md&lt;/a&gt;&lt;/p&gt;
-</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</guid><pubDate>Tue, 12 May 2020 20:14:00 +0806</pubDate></item><item><title>教室报修管理系统（HGNUMAN）文档</title><link>https://wiki.kaygb.com/archives/how-to-use-hgnuman/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
-&lt;p&gt;一款为校园内教室设备报修的系统，包括三种角色（管理员，维修人员，普通用户）&lt;/p&gt;
-&lt;h2&gt;安装&lt;/h2&gt;
-&lt;p&gt;本系统基于JDK11开发，首先需要在服务器安装jdk。&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jdk.java.net/java-se-ri/11"&gt;Java Platform, Standard Edition 11 Reference Implementations&lt;/a&gt;&lt;/p&gt;
+</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</guid><pubDate>Tue, 12 May 2020 20:14:00 +0806</pubDate></item><item><title>教室报修管理系统（HGNUMAN）项目文档</title><link>https://wiki.kaygb.com/archives/how-to-use-hgnuman/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
+&lt;p&gt;一款为校园内教室设备报修而设计的系统，包括两种角色：管理员和信息员 。&lt;del&gt;包括三种角色（管理员，维修人员，普通用户）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;报修流程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;信息员登入系统，点击故障报修，选择故障对象的位置和故障分类，填写故障描述，上传故障照片。&lt;/li&gt;
+&lt;li&gt;管理员通过后台导出故障数据提交给维修公司维修。&lt;/li&gt;
+&lt;li&gt;信息员查看所报修对象是否维修完成，并在系统确认维修状态。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;部署&lt;/h2&gt;
+&lt;p&gt;所需环境及软件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;64位Linux系统(建议Centos7，Ubuntu1804及以上)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;OpenJDK11  (下载地址：&lt;a href="http://jdk.java.net/java-se-ri/11"&gt;Java Platform, Standard Edition 11 Reference Implementations&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mysql8.0 （5.7 及以上）或MariaDB（推荐）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;nginx（可选）&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;在根目录创建文件夹，然后上传Jar包到服务器&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /
 mkdir hgnuman
-// 上传
+// 上传jar包
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;然后使用以下命令运行：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;8036&lt;/span&gt; &amp;gt;&amp;gt; /hgnuman/hgnuman.log &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;等待一分钟左右，访问：ip:8036 查看是否启动成功&lt;/p&gt;
+&lt;p&gt;等待一分钟左右，访问：&lt;code&gt;http://ip:8036&lt;/code&gt; 查看是否启动成功，系统日志科查看&lt;code&gt;/hgnuman/hgnuman.log&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;使用&lt;/h2&gt;
 &lt;h3&gt;普通用户&lt;/h3&gt;
 &lt;p&gt;首先注册账号，然后登录到系统中&lt;/p&gt;
@@ -88,20 +101,17 @@ mkdir hgnuman
 &lt;p&gt;上传照片，需要您使用系统相机拍照之后，点击上传图片按钮选择相应照片上传，上传完成会显示预览图片，点击创建即可。&lt;/p&gt;
 &lt;p&gt;创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一搬一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="510" data-height="842" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/48969a2d572daf36d0595aaa78627c9d.png" alt="image-20210715151422227" /&gt;&lt;figcaption&gt;image-20210715151422227&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3&gt;维修工&lt;/h3&gt;
-&lt;blockquote&gt;&lt;p&gt;待补充&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;h3&gt;管理员&lt;/h3&gt;
 &lt;p&gt;系统在第一次安装运行后，默认设置第一个注册的用户为管理员。&lt;/p&gt;
 &lt;p&gt;管理员可查看全部维修单，并导出维修单。&lt;/p&gt;
-&lt;p&gt;首次登录成功请在系统设置内设置系统域名，如&lt;code&gt;https://mana.eas1.cn&lt;/code&gt;(最后请不要添加斜杠)&lt;/p&gt;
+&lt;p&gt;首次登录成功请在系统设置内设置系统域名用于数据导出的图片展示，如&lt;code&gt;https://mana.eas1.cn&lt;/code&gt;(最后请不要添加斜杠)&lt;/p&gt;
 &lt;p&gt;系统初始化应包含以下步骤：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;添加校区&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1614" data-height="719" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/da6561cb67a60095b74556da04a1655a.png" alt="image-20210715152245430" /&gt;&lt;figcaption&gt;image-20210715152245430&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;添加教学楼&lt;/li&gt;
+&lt;li&gt;添加教学楼和教室&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1659" data-height="449" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/ea11bb431effa4f11b8fc274e3d17a13.png" alt="image-20210715152347359" /&gt;&lt;figcaption&gt;image-20210715152347359&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1008" data-height="484" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/846cc81f792ce7a4449829d2265130fd.png" alt="image-20210715152336394" /&gt;&lt;figcaption&gt;image-20210715152336394&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -120,6 +130,7 @@ mkdir hgnuman
 &lt;/blockquote&gt;
 &lt;p&gt;导出的EXCEL字段如下：&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1756" data-height="174" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/a39cdf8c9444f00acc534b7c6d591bac.png" alt="image-20210715153354710" /&gt;&lt;figcaption&gt;image-20210715153354710&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;开发&lt;/h2&gt;
 &lt;h2&gt;反馈&lt;/h2&gt;
 &lt;p&gt;邮箱: support#kaygb.com(#替换为@)&lt;/p&gt;
 &lt;p&gt;QQ: 511425672&lt;/p&gt;
