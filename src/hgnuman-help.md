@@ -12,7 +12,7 @@ tags:
   - 教室报修管理系统
 ---
 
-## 介绍
+## 系统介绍
 
 一款为校园内教室设备报修而设计的系统，包括两种角色：管理员和信息员 。~~包括三种角色（管理员，维修人员，普通用户）~~
 
@@ -22,52 +22,31 @@ tags:
 2. 管理员通过后台导出故障数据提交给维修公司维修。
 3. 信息员查看所报修对象是否维修完成，并在系统确认维修状态。
 
-## 部署
 
-所需环境及软件：
 
-- 64位Linux系统(建议Centos7，Ubuntu1804及以上)
-- OpenJDK11  (下载地址：[Java Platform, Standard Edition 11 Reference Implementations](http://jdk.java.net/java-se-ri/11))
-
-- Mysql8.0 （5.7 及以上）或MariaDB（推荐）
-- nginx（可选）
-
-在根目录创建文件夹，然后上传Jar包到服务器
-
-```bash
-cd /
-mkdir hgnuman
-// 上传jar包
-```
-
-然后使用以下命令运行：
-
-```bash
-sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >> /hgnuman/hgnuman.log 2>&1 &
-```
-
-等待一分钟左右，访问：`http://ip:8036` 查看是否启动成功，系统日志科查看`/hgnuman/hgnuman.log`
-
-## 使用
+## 使用帮助
 
 ### 普通用户
 
-首先注册账号，然后登录到系统中
+注册账号或者使用管理员分配的账号登录到系统中
 
 ![hgnuman-help1](./images/hgnuman-help1.png)
 
 ![image-20210715150911713](images/image-20210715150911713.png)
 
-点击左侧栏创建维修单，填写教室号，故障描述，选择设备分类和所在教学楼。
+点击左侧栏创建维修单，填写教室信息，故障描述，选择设备分类和所在教学楼。
 
-![image-20210715151127816](images/image-20210715151127816.png)
+![](images/hgnuman/xtys.gif)
+
+![(images/hgnuman/xtys.gif)
 
 上传照片，需要您使用系统相机拍照之后，点击上传图片按钮选择相应照片上传，上传完成会显示预览图片，点击创建即可。
 
-创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一搬一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。
+创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一般一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。
+
+> 信息员请自行审核报修任务是否维修完成
 
 ![image-20210715151422227](images/image-20210715151422227.png)
-
 
 ### 管理员
 
@@ -117,7 +96,31 @@ sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >>
 
 ## 开发
 
+### 部署
 
+所需环境及软件：
+
+- 64位Linux系统(建议Centos7，Ubuntu1804及以上)
+- OpenJDK11  (下载地址：[Java Platform, Standard Edition 11 Reference Implementations](http://jdk.java.net/java-se-ri/11))
+
+- Mysql8.0 （5.7 及以上）或MariaDB（推荐）
+- nginx（可选）
+
+在根目录创建文件夹，然后上传Jar包到服务器
+
+```bash
+cd /
+mkdir hgnuman
+// 上传jar包
+```
+
+然后使用以下命令运行：
+
+```bash
+sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >> /hgnuman/hgnuman.log 2>&1 &
+```
+
+等待一分钟左右，访问：`http://ip:8036` 查看是否启动成功，系统日志科查看`/hgnuman/hgnuman.log`
 
 ## 反馈
 
