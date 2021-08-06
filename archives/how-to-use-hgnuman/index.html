@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/27aebb7636075b64ad5c417764751535.json"
+            api: "https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/05f6243c14b5da3358be4cf7df8259c2.json"
         }
     </script>
     <script>
@@ -34,16 +34,16 @@
     
 <title>教室报修管理系统（HGNUMAN）项目文档 - Kaygb's wiki</title>
 <meta name="author" content="珂泽" />
-<meta name="description" content="介绍" />
+<meta name="description" content="系统介绍" />
 <meta property="og:title" content="教室报修管理系统（HGNUMAN）项目文档 - Kaygb's wiki" />
-<meta property="og:description" content="介绍" />
+<meta property="og:description" content="系统介绍" />
 <meta property="og:site_name" content="Kaygb's wiki" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wiki.kaygb.com/archives/how-to-use-hgnuman/" />
 <meta property="og:image" content="" />
 <meta property="article:published_time" content="2021-07-15T11:46:00-00.00" />
 <meta name="twitter:title" content="教室报修管理系统（HGNUMAN）项目文档 - Kaygb's wiki" />
-<meta name="twitter:description" content="介绍" />
+<meta name="twitter:description" content="系统介绍" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -136,7 +136,7 @@
                 
             </span>
         </p>
-        <article class="yue"><h2>介绍</h2>
+        <article class="yue"><h2>系统介绍</h2>
 <p>一款为校园内教室设备报修而设计的系统，包括两种角色：管理员和信息员 。<del>包括三种角色（管理员，维修人员，普通用户）</del></p>
 <p>报修流程：</p>
 <ol>
@@ -144,34 +144,18 @@
 <li>管理员通过后台导出故障数据提交给维修公司维修。</li>
 <li>信息员查看所报修对象是否维修完成，并在系统确认维修状态。</li>
 </ol>
-<h2>部署</h2>
-<p>所需环境及软件：</p>
-<ul>
-<li>64位Linux系统(建议Centos7，Ubuntu1804及以上)</li>
-<li><p>OpenJDK11  (下载地址：<a href="http://jdk.java.net/java-se-ri/11">Java Platform, Standard Edition 11 Reference Implementations</a>)</p>
-</li>
-<li><p>Mysql8.0 （5.7 及以上）或MariaDB（推荐）</p>
-</li>
-<li>nginx（可选）</li>
-</ul>
-<p>在根目录创建文件夹，然后上传Jar包到服务器</p>
-<div class="highlight"><pre><span></span><span class="nb">cd</span> /
-mkdir hgnuman
-// 上传jar包
-</pre></div>
-<p>然后使用以下命令运行：</p>
-<div class="highlight"><pre><span></span>sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port<span class="o">=</span><span class="m">8036</span> &gt;&gt; /hgnuman/hgnuman.log <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="p">&amp;</span>
-</pre></div>
-<p>等待一分钟左右，访问：<code>http://ip:8036</code> 查看是否启动成功，系统日志科查看<code>/hgnuman/hgnuman.log</code></p>
-<h2>使用</h2>
+<h2>使用帮助</h2>
 <h3>普通用户</h3>
-<p>首先注册账号，然后登录到系统中</p>
+<p>注册账号或者使用管理员分配的账号登录到系统中</p>
 <p><figure><img data-width="1230" data-height="894" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/56c227b6fe44ff5f7bbc3299717623d5.png" alt="hgnuman-help1" /><figcaption>hgnuman-help1</figcaption></figure></p>
 <p><figure><img data-width="1932" data-height="927" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/4c5a273c1b31b3c0a1b423f520b3f8e7.png" alt="image-20210715150911713" /><figcaption>image-20210715150911713</figcaption></figure></p>
-<p>点击左侧栏创建维修单，填写教室号，故障描述，选择设备分类和所在教学楼。</p>
-<p><figure><img data-width="397" data-height="815" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/df46c5e04b1b339bbf703420ff6d1a87.png" alt="image-20210715151127816" /><figcaption>image-20210715151127816</figcaption></figure></p>
+<p>点击左侧栏创建维修单，填写教室信息，故障描述，选择设备分类和所在教学楼。</p>
+<p><figure><img data-width="348" data-height="735" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/0573d3b2bf2516db2643a725919da6e6.gif" alt="" /></figure></p>
+<p>![(images/hgnuman/xtys.gif)</p>
 <p>上传照片，需要您使用系统相机拍照之后，点击上传图片按钮选择相应照片上传，上传完成会显示预览图片，点击创建即可。</p>
-<p>创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一搬一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。</p>
+<p>创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一般一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。</p>
+<blockquote><p>信息员请自行审核报修任务是否维修完成</p>
+</blockquote>
 <p><figure><img data-width="510" data-height="842" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/48969a2d572daf36d0595aaa78627c9d.png" alt="image-20210715151422227" /><figcaption>image-20210715151422227</figcaption></figure></p>
 <h3>管理员</h3>
 <p>系统在第一次安装运行后，默认设置第一个注册的用户为管理员。</p>
@@ -203,6 +187,25 @@ mkdir hgnuman
 <p>导出的EXCEL字段如下：</p>
 <p><figure><img data-width="1756" data-height="174" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/a39cdf8c9444f00acc534b7c6d591bac.png" alt="image-20210715153354710" /><figcaption>image-20210715153354710</figcaption></figure></p>
 <h2>开发</h2>
+<h3>部署</h3>
+<p>所需环境及软件：</p>
+<ul>
+<li>64位Linux系统(建议Centos7，Ubuntu1804及以上)</li>
+<li><p>OpenJDK11  (下载地址：<a href="http://jdk.java.net/java-se-ri/11">Java Platform, Standard Edition 11 Reference Implementations</a>)</p>
+</li>
+<li><p>Mysql8.0 （5.7 及以上）或MariaDB（推荐）</p>
+</li>
+<li>nginx（可选）</li>
+</ul>
+<p>在根目录创建文件夹，然后上传Jar包到服务器</p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span> /
+mkdir hgnuman
+// 上传jar包
+</pre></div>
+<p>然后使用以下命令运行：</p>
+<div class="highlight"><pre><span></span>sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port<span class="o">=</span><span class="m">8036</span> &gt;&gt; /hgnuman/hgnuman.log <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span> <span class="p">&amp;</span>
+</pre></div>
+<p>等待一分钟左右，访问：<code>http://ip:8036</code> 查看是否启动成功，系统日志科查看<code>/hgnuman/hgnuman.log</code></p>
 <h2>反馈</h2>
 <p>邮箱: support#kaygb.com(#替换为@)</p>
 <p>QQ: 511425672</p>

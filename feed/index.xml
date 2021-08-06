@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Mon, 02 Aug 2021 07:15:18 +0806</lastBuildDate><pubDate>Mon, 02 Aug 2021 07:15:18 +0806</pubDate><item><title>Typecho theme winds 使用文档</title><link>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link><description>珂泽的Wiki站点，用来记录零零散散的笔记！</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg</url><title>Kaygb's wiki</title><link>https://wiki.kaygb.com/</link></image><language>zh-CN</language><lastBuildDate>Fri, 06 Aug 2021 02:52:43 +0806</lastBuildDate><pubDate>Fri, 06 Aug 2021 02:52:43 +0806</pubDate><item><title>Typecho theme winds 使用文档</title><link>https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
 &lt;p&gt;WINDS - 如风吹拂，一款Typecho主题。&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;非常感谢VOID的作者熊猫小A同意参考VOID的导航栏样式
 部分样式借鉴 VOID Material sagiri ，非常感谢！&lt;/p&gt;
@@ -64,7 +64,7 @@
 &lt;p&gt;&lt;a href="https://github.com/kaygb/typecho-theme-winds/issues"&gt;点击此处提交ISSUE&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;提问的艺术&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md"&gt;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md&lt;/a&gt;&lt;/p&gt;
-</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</guid><pubDate>Tue, 12 May 2020 20:14:00 +0806</pubDate></item><item><title>教室报修管理系统（HGNUMAN）项目文档</title><link>https://wiki.kaygb.com/archives/how-to-use-hgnuman/</link><description>&lt;h2&gt;介绍&lt;/h2&gt;
+</description><author>hi@kaygb.com (珂泽)</author><guid isPermaLink="true">https://wiki.kaygb.com/archives/zh-doc-of-typecho-theme-winds/</guid><pubDate>Tue, 12 May 2020 20:14:00 +0806</pubDate></item><item><title>教室报修管理系统（HGNUMAN）项目文档</title><link>https://wiki.kaygb.com/archives/how-to-use-hgnuman/</link><description>&lt;h2&gt;系统介绍&lt;/h2&gt;
 &lt;p&gt;一款为校园内教室设备报修而设计的系统，包括两种角色：管理员和信息员 。&lt;del&gt;包括三种角色（管理员，维修人员，普通用户）&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;报修流程：&lt;/p&gt;
 &lt;ol&gt;
@@ -72,34 +72,18 @@
 &lt;li&gt;管理员通过后台导出故障数据提交给维修公司维修。&lt;/li&gt;
 &lt;li&gt;信息员查看所报修对象是否维修完成，并在系统确认维修状态。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;部署&lt;/h2&gt;
-&lt;p&gt;所需环境及软件：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;64位Linux系统(建议Centos7，Ubuntu1804及以上)&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;OpenJDK11  (下载地址：&lt;a href="http://jdk.java.net/java-se-ri/11"&gt;Java Platform, Standard Edition 11 Reference Implementations&lt;/a&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Mysql8.0 （5.7 及以上）或MariaDB（推荐）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;nginx（可选）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;在根目录创建文件夹，然后上传Jar包到服务器&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /
-mkdir hgnuman
-// 上传jar包
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;然后使用以下命令运行：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;8036&lt;/span&gt; &amp;gt;&amp;gt; /hgnuman/hgnuman.log &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;等待一分钟左右，访问：&lt;code&gt;http://ip:8036&lt;/code&gt; 查看是否启动成功，系统日志科查看&lt;code&gt;/hgnuman/hgnuman.log&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;使用&lt;/h2&gt;
+&lt;h2&gt;使用帮助&lt;/h2&gt;
 &lt;h3&gt;普通用户&lt;/h3&gt;
-&lt;p&gt;首先注册账号，然后登录到系统中&lt;/p&gt;
+&lt;p&gt;注册账号或者使用管理员分配的账号登录到系统中&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1230" data-height="894" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/56c227b6fe44ff5f7bbc3299717623d5.png" alt="hgnuman-help1" /&gt;&lt;figcaption&gt;hgnuman-help1&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1932" data-height="927" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/4c5a273c1b31b3c0a1b423f520b3f8e7.png" alt="image-20210715150911713" /&gt;&lt;figcaption&gt;image-20210715150911713&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;点击左侧栏创建维修单，填写教室号，故障描述，选择设备分类和所在教学楼。&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img data-width="397" data-height="815" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/df46c5e04b1b339bbf703420ff6d1a87.png" alt="image-20210715151127816" /&gt;&lt;figcaption&gt;image-20210715151127816&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;点击左侧栏创建维修单，填写教室信息，故障描述，选择设备分类和所在教学楼。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img data-width="348" data-height="735" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/0573d3b2bf2516db2643a725919da6e6.gif" alt="" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;![(images/hgnuman/xtys.gif)&lt;/p&gt;
 &lt;p&gt;上传照片，需要您使用系统相机拍照之后，点击上传图片按钮选择相应照片上传，上传完成会显示预览图片，点击创建即可。&lt;/p&gt;
-&lt;p&gt;创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一搬一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。&lt;/p&gt;
+&lt;p&gt;创建完成之后，点击侧边栏我提交的维修单，即可看到维修单状态，请在所报修任务维修完成之后（一般一周之后），如已维修，请点击审核通过按钮，完成审核。每学期统计数据将以审核完成的数量为主发放学分。&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;信息员请自行审核报修任务是否维修完成&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="510" data-height="842" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/48969a2d572daf36d0595aaa78627c9d.png" alt="image-20210715151422227" /&gt;&lt;figcaption&gt;image-20210715151422227&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3&gt;管理员&lt;/h3&gt;
 &lt;p&gt;系统在第一次安装运行后，默认设置第一个注册的用户为管理员。&lt;/p&gt;
@@ -131,6 +115,25 @@ mkdir hgnuman
 &lt;p&gt;导出的EXCEL字段如下：&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img data-width="1756" data-height="174" src="https://cdn.jsdelivr.net/gh/kaygb/kaygb.github.io@master/archives/assets/a39cdf8c9444f00acc534b7c6d591bac.png" alt="image-20210715153354710" /&gt;&lt;figcaption&gt;image-20210715153354710&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;开发&lt;/h2&gt;
+&lt;h3&gt;部署&lt;/h3&gt;
+&lt;p&gt;所需环境及软件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;64位Linux系统(建议Centos7，Ubuntu1804及以上)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;OpenJDK11  (下载地址：&lt;a href="http://jdk.java.net/java-se-ri/11"&gt;Java Platform, Standard Edition 11 Reference Implementations&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mysql8.0 （5.7 及以上）或MariaDB（推荐）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;nginx（可选）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在根目录创建文件夹，然后上传Jar包到服务器&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /
+mkdir hgnuman
+// 上传jar包
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;然后使用以下命令运行：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;8036&lt;/span&gt; &amp;gt;&amp;gt; /hgnuman/hgnuman.log &lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;等待一分钟左右，访问：&lt;code&gt;http://ip:8036&lt;/code&gt; 查看是否启动成功，系统日志科查看&lt;code&gt;/hgnuman/hgnuman.log&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;反馈&lt;/h2&gt;
 &lt;p&gt;邮箱: support#kaygb.com(#替换为@)&lt;/p&gt;
 &lt;p&gt;QQ: 511425672&lt;/p&gt;
