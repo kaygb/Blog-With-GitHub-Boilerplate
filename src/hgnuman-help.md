@@ -96,7 +96,7 @@ tags:
 
 ## 开发
 
-### 部署
+### 普通部署
 
 所需环境及软件：
 
@@ -121,6 +121,70 @@ sudo -u root nohup /usr/bin/java -jar /hgnuman/hgnuman.jar --server.port=8036 >>
 ```
 
 等待一分钟左右，访问：`http://ip:8036` 查看是否启动成功，系统日志科查看`/hgnuman/hgnuman.log`
+
+### 使用Docker部署
+
+创建文件夹
+
+```bash
+sudo mkdir /opt/hgnuman/app
+sudo mkdir /opt/hgnuman/files
+```
+
+将jar包和antispanmy.xml到files目录下，并复制jar包到app目录下
+进入app目录编写Dockerfile
+
+```bash
+vim Dockerfile
+```
+写入以下内容
+
+```bash
+# Docker image for hgnuman
+# VERSION 1.3.0
+# Author: kaygb
+# 基础镜像使用openjdk11
+FROM openjdk:11
+# 作者
+MAINTAINER kaygb <kz@kaygb.com>
+# VOLUME 指定临时文件目录为/tmp。
+VOLUME /tmp
+# 将jar包添加到容器中并更名为app.jar
+ADD hgnuman-1.3.0-RELEASE.jar /opt/hgnuman/app.jar
+RUN mkdir /opt/hgnuman/upload-files
+RUN mkdir /opt/hgnuman/export
+RUN mkdir /opt/hgnuman/import
+# 运行jar包
+RUN bash -c 'touch /opt/hgnuman/app.jar'
+ENTRYPOINT ["java","-jar","/opt/hgnuman/app.jar","--server.port=8036",">>","/opt/hgnuman/log/hgnuman.log","2>&1","&"]
+```
+保存后构建容器镜像
+
+```bash
+sudo docker build -t hgnuman .
+```
+
+启动容器
+
+```bash
+sudo docker run -d -v /opt/hgnuman/files:/opt/hgnuman --net=host --privileged=true hgnuman
+```
+
+> 注意：如容器没有正常运行，请确认app.jar 在`/opt/hgnuman/files`中是否存在
+
+更新系统（更新jar包）
+
+```bash
+sudo docker ps -a // 查看所有容器以及容器ID
+sudo docker stop xxxxx(容器id） // 停止容器
+sudo rm -r app.jar  // 删除旧包（或修改文件名称）
+// 上传新的jar包
+
+sudo docker start xxxxx(容器id)启动容器，更新完成。
+```
+
+> 查看日志命令：sudo docker logs hgnuman 
+
 
 ## 反馈
 
