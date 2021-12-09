@@ -22,11 +22,11 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "KZ WIKI"
 # site_logo = "${static_prefix}logo.png"
-site_logo = "https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/kaygbcom/icon/f2.jpg"
+site_logo = "https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/tx.jpg"
 site_build_date = "2020-02-24T13:00+08:00"
 author = "珂泽"
 email = "hi@kaygb.com"
-author_homepage = "https://www.kaygb.com"
+author_homepage = "https://www.vwmwv.cn"
 description = "珂泽的Wiki站点，用来记录零零散散的笔记！"
 key_words = ['珂泽笔记','疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
 language = 'zh-CN'
@@ -89,7 +89,7 @@ head_addon = r'''
 '''
 
 footer_addon = r'''
-<a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener">豫ICP备19002054号-6</a>
+<a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener">豫ICP备19002054号-7</a>
 '''
 
 body_addon = r'''
