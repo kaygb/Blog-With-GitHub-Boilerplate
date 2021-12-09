@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "https://wiki.kaygb.com/"
+site_prefix = "https://wiki.vwmwv.cn/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -22,7 +22,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "KZ WIKI"
 # site_logo = "${static_prefix}logo.png"
-site_logo = "https://kaygbcdn.170601.xyz/kaygbcom/blog-images/blog-images/static_image/kaygb-logo/tx_compressed.jpg"
+site_logo = "https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/kaygbcom/icon/f2.jpg"
 site_build_date = "2020-02-24T13:00+08:00"
 author = "珂泽"
 email = "hi@kaygb.com"
@@ -34,13 +34,8 @@ external_links = [
     
     {
         "name": "HOME",
-        "url": "https://www.kaygb.com",
+        "url": "https://www.vwmwv.cn/",
         "brief": "HOME"
-    },
-    {
-        "name": "BLOG",
-        "url": "https://blog.kaygb.com",
-        "brief": "Blog"
     },
     {
         "name": "GITHUB",
