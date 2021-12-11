@@ -16,7 +16,7 @@ template = {
 }
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "kaygb/kaygb.github.io@master"
+    "repo": "kaygb/wikisource@master"
 }
 
 # 站点设置
@@ -25,7 +25,7 @@ site_name = "KZ WIKI"
 site_logo = "https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/tx.jpg"
 site_build_date = "2020-02-24T13:00+08:00"
 author = "珂泽"
-email = "hi@kaygb.com"
+email = "hi@vwmwv.cn"
 author_homepage = "https://www.vwmwv.cn"
 description = "珂泽的Wiki站点，用来记录零零散散的笔记！"
 key_words = ['珂泽笔记','疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
