@@ -20,7 +20,7 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "KZ WIKI"
+site_name = "ICE WIKI"
 # site_logo = "${static_prefix}logo.png"
 site_logo = "https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/tx.jpg"
 site_build_date = "2020-02-24T13:00+08:00"
@@ -83,13 +83,13 @@ head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <meta http-equiv="Cache-Control" content="no-cache" />
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="icon" type="image/ico" href="https://kaygbcdn.170601.xyz/favicon.ico">
+<link rel="icon" type="image/ico" href="https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/favicon.ico">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
 
 '''
 
 footer_addon = r'''
-<a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener">豫ICP备19002054号-7</a>
+<a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener">豫ICP备19002054号-8</a>
 '''
 
 body_addon = r'''
