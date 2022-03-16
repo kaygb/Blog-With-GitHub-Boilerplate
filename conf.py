@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "https://kaygb.github.io/wikisource"
+site_prefix = "https://kaygb.github.io/wikisource/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
