@@ -11,7 +11,7 @@ archives_page_size = 50
 template = {
     "name": "Kepler",
     "type": "git",
-    "url": "https://github.com/AlanDecode/Maverick-Theme-Kepler.git",
+    "url": "https://github.com/kaygb/Maverick-Theme-Kepler.git",
     "branch": "latest"
 }
 enable_jsdelivr = {
