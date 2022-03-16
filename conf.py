@@ -28,7 +28,7 @@ author = "珂泽"
 email = "hi@vwmwv.cn"
 author_homepage = "https://170601.xyz"
 description = "珂泽的Wiki站点，用来记录零零散散的笔记！"
-key_words = ['珂泽笔记','疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
+key_words = ['珂泽笔记','疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog','7601']
 language = 'zh-CN'
 external_links = [
     
