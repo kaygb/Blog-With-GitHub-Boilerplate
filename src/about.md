@@ -13,9 +13,9 @@ author: 珂泽
 
 | Name | 珂泽（kaygb） |
 | --- | --- |
-| Email | hi#vwmwv.cn(# => @) |
+| Email | 511425672#qq.cn(# => @) |
 | QQ | 511425672 |
-| Site | https://www.vwmwv.cn |
+| Site | https://170601.xyz |
 | Github | https://github.com/kaygb/ |
 
 
