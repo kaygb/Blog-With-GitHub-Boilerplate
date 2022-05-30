@@ -15,18 +15,18 @@ template = {
     "branch": "latest"
 }
 enable_jsdelivr = {
-    "enabled": True,
+    "enabled": False,
     "repo": "kaygb/wikisource@master"
 }
 
 # 站点设置
 site_name = "ICE WIKI"
 # site_logo = "${static_prefix}logo.png"
-site_logo = "https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/tx.jpg"
+site_logo = "https://sdn.geekzu.org/avatar/cb4d449db723ac9112d9734cc46ff68f?s=300&r=X&d="
 site_build_date = "2020-02-24T13:00+08:00"
 author = "珂泽"
-email = "hi@vwmwv.cn"
-author_homepage = "https://170601.xyz"
+email = "i@kezez.com"
+author_homepage = "https://www.170601.xyz"
 description = "珂泽的Wiki站点，用来记录零零散散的笔记！"
 key_words = ['珂泽笔记','疯知识','风也的小站' ,'风也温柔', 'wiki', 'blog']
 language = 'zh-CN'
@@ -82,9 +82,8 @@ social_links = [
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <meta http-equiv="Cache-Control" content="no-cache" />
-<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="icon" type="image/ico" href="https://cdn.jsdelivr.net/gh/kaygb/twentytwenty/favicon.ico">
-<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/atom-one-dark.min.css">
+<link rel="dns-prefetch" href="//www.170601.xyz" />
+<link rel="icon" type="image/ico" href="https://www.170601.xyz/favicon.ico">
 
 '''
 
