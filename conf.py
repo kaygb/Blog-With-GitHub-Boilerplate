@@ -34,8 +34,13 @@ external_links = [
     
     {
         "name": "HOME",
-        "url": "https://170601.xyz",
+        "url": "https://www.170601.xyz",
         "brief": "HOME"
+    },
+    {
+        "name": "BLOG",
+        "url": "https://www.kezez.com",
+        "brief": "BLOG"
     },
     {
         "name": "GITHUB",
