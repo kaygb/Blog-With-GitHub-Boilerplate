@@ -146,7 +146,7 @@ vim Dockerfile
 # 基础镜像使用openjdk11
 FROM openjdk:11
 # 作者
-MAINTAINER kaygb <kz@kaygb.com>
+MAINTAINER kaygb <hi@kezez.com>
 # VOLUME 指定临时文件目录为/tmp。
 VOLUME /tmp
 # 将jar包添加到容器中并更名为app.jar
