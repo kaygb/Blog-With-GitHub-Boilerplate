@@ -6,7 +6,7 @@
 
 | Name | 珂泽（kaygb） |
 | --- | --- |
-| Email | hi#vwmwv.cn(# => @) |
-| Site | https://www.vwmwv.cn |
+| Email | hi#kezez.com(# => @) |
+| Site | https://www.kezez.com |
 | Github | https://github.com/kaygb/ |
 
