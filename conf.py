@@ -22,7 +22,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "ICE WIKI"
 # site_logo = "${static_prefix}logo.png"
-site_logo = "https://sdn.geekzu.org/avatar/cb4d449db723ac9112d9734cc46ff68f?s=300&r=X&d="
+site_logo = "https://cravatar.cn/avatar/d47c36eff7f7bb6c2ddd129bfec21cd3?s=600&r=G&d="
 site_build_date = "2020-02-24T13:00+08:00"
 author = "珂泽"
 email = "i@kezez.com"
